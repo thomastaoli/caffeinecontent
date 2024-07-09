@@ -1,13 +1,644 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template | Svelte for Data Visualization</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Over-caffeinated and Overlooked</title>
+  <link rel="icon" href="23logo.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="" />
+  <meta property="og:url" content="https://github.com/thomastaoli/article-23/" />
+  <meta property="og:image" content="https://github.com/thomastaoli/article-23/headerbg.png" />
+  <meta property="og:description" content="The rise of caffeine-related health issues show there is a growing
+      demand for stricter labeling laws to prevent further tragedies and
+      ensure public safety. The FDA, however, is doing nothing." />
+  <meta property="article:author" content="Thomas Li" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet" />
+
+  <!-- Include the D3.js library from 2.html -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Styles from 2.html -->
+  <style>
+    body {
+      margin: 0;
+      font-size: 20px;
+      font-family: "Nunito", sans-serif;
+      /* Nunito as a fallback for Avenir */
+      text-rendering: optimizeLegibility;
+      background: #e1e1e1;
+      color: #9b9b9b;
+    }
+
+    .byline {
+      font-size: 1.1rem;
+      line-height: 0.75;
+      margin-top: 1.5rem;
+      font-weight: 500;
+    }
+
+    .date {
+      font-size: 0.85rem;
+      line-height: 1;
+      margin-top: 10px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .content {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .header {
+      padding: 3em 0;
+    }
+
+    a {
+      color: #f05349;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 4em;
+      padding: 4em 0;
+    }
+
+    figure {
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #666;
+    }
+
+    h1 {
+      font-family: "DM Serif Text", serif;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 1;
+      color: #9b9b9b;
+    }
+
+    h2 {
+      font-family: "DM Serif Text", serif;
+      font-weight: bold;
+      font-size: 1.3em;
+      line-height: 1;
+      color: #9b9b9b;
+    }
+
+    .hr-lines {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      font-family: "DM Serif Text", serif;
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    .subhead {
+      font-family: "Nunito", sans-serif;
+      text-align: center;
+    }
+
+    iframe,
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: 1em;
+      line-height: 1.6;
+    }
+
+    iframe {
+      padding-bottom: 1.2em;
+    }
+
+    code {
+      font-family: "Courier New", monospace;
+      background: #fff880;
+    }
+
+    /* margin on mobile */
+    @media (max-width: 640px) {
+      body {
+        font-size: 18px;
+      }
+
+      .content {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+
+      .header-container {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      /* Adjust the height based on the width while maintaining aspect ratio */
+    }
+
+    .portrait {
+      float: center;
+      /* Position the portrait to the left */
+      width: 80px;
+      /* Adjust the width as needed */
+      height: 80px;
+      /* Adjust the height as needed */
+      border-radius: 50%;
+      /* Make the portrait round */
+      margin-right: 15px;
+      /* Add some space between the portrait and the text */
+      object-fit: cover;
+      /* Ensure the image covers the area without distortion */
+    }
+
+    /* Styles from 2.html */
+    .visualization-wrapper {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      width: 800px;
+      /* Fixed width */
+      height: 300px;
+      /* Fixed height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visualization-headline {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .visualization-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      /* Ensure it takes the full height of the wrapper */
+    }
+
+    .arrow {
+      cursor: pointer;
+      font-size: 50px;
+      margin: 0 20px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+    }
+
+    .item img,
+    .item .coffee-cup {
+      height: 150px;
+      /* Fixed height for images */
+      width: auto;
+      /* Maintain aspect ratio */
+    }
+
+    .drink-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+
+    .equal-sign {
+      font-size: 50px;
+      margin: 0 20px;
+    }
+
+    .vending-machine-wrapper {
+      background-color: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      width: 800px;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .vending-machine-headline {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .vending-machine {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="header" style="text-align: center">
+      <h1>Over-caffeinated and Overlooked</h1>
+      <h2 class="subhead" style="font-family: 'DM Serif Text', serif; font-weight: normal">
+        The rise of caffeine-related health issues show there is a growing
+        demand for stricter labeling laws to prevent further tragedies and
+        ensure public safety. The FDA, however, is doing nothing.
+      </h2>
+    </div>
+  </div>
+
+  <div style="text-align: center">
+    <img src="header.png" style="width: 40%; text-align: center" />
+  </div>
+
+  <div style="text-align: center">
+    <p class="byline">
+      By <a href="https://thomastaoli.github.io/">Thomas Li</a>
+    </p>
+    <p class="date">Jul 10, 2024</p>
+  </div>
+
+  <div class="content">
+    <p>
+      Sarah Katz was a promising student: she was doing her degree in
+      international relations at UPenn, and had received a full scholarship
+      from a Chinese university to study Mandarin - as it’s what she was
+      passionate about.
+    </p>
+    <p>
+      Her dreams, however, came to a tragic end after a fatal heart attack -
+      which was triggered by a lemonade from Panera Bread.
+    </p>
+    <p>
+      The beverage, according to a court file, contained 390 milligrams of
+      caffeine - almost the daily maximum suggested by FDA for healthy adults.
+      The fast food chain, though, didn’t put any label warning Katz, who had
+      a heart condition since childhood, that the drink could be dangerous.
+    </p>
+    <p>
+      Sarah’s death is an example of the fatal consequences that can arise
+      from this lack of awareness and labeling. However, she’s not the last
+      victim of Panera’s unlabelled caffeinated drink. At least two other
+      alleged cardiac arrest cases were reported before the restaurant chain
+      stopped selling the lemonade under the pressure of lawsuits.
+    </p>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - The Hidden Danger -
+  </h2>
+
+  </br>
+
+  <div class="content">
+    <p>
+      The tragic case of Sarah Katz underscores the dangers of unrecognized caffeine intake. As additional victims have
+      come forward, it shows a pattern of risk associated with unlabelled caffeine content - while coffee is universally
+      recognized for its caffeine content, many consumers are unaware that non-coffee beverages can also contain
+      significant amounts.
+    </p>
+  </div>
+
+  </br>
+
+  <div class="visualization-wrapper">
+    <h3 class="visualization-headline" style="font-family: DM Serif Text, serif;">How much caffeine is in common
+      non-coffee beverages?</h3>
+    <div class="visualization-container">
+      <div id="left-arrow" class="arrow">&#8592;</div>
+      <div id="visualization" class="item"></div>
+      <div id="right-arrow" class="arrow">&#8594;</div>
+    </div>
+    <h3 class="visualization-headline" style="font-size: 15px;">*Calculation based on Starbucks Americano (12 oz, Hot)
+    </h3>
+  </div>
+
+  </br>
+
+  <div class="content">
+    <p>
+      Dr. Jon Kole, who published a <a
+        href="https://www.amnesty.org/en/latest/news/2024/03/what-is-hong-kongs-article-23-law-10-things-you-need-to-know/">study</a>
+      calling for comprehensive labeling, emphasizing the dangers of high caffeine
+      intake: “This can lead to increased blood pressure and heart rate, or even cardiac arrest, which can be more
+      dangerous for some vulnerable groups, such as pregnant women and adolescents.”
+    </p>
+    <p>
+      Kole did the research for a reason. As a pediatrician, he had witnessed cases in which children were sent to ER
+      with a racing heart from energy drinks. But the potential danger doesn't stop there.
+    </p>
+    <p>
+      “Many people assume there’s some caffeine in energy drinks, but the labels often don't provide meaningful
+      information on the amount,” said Kole. “This lack of standardized practice makes it difficult to gauge caffeine
+      content across various product sizes, from large cans to small shooters. There are also unexpected sources like
+      caffeine-infused snacks, and even some medications that people might not realize contain caffeine.”
+    </p>
+    <p>
+      Moreover, under the new law, the Chief Executive has the absolute
+      authority to certify whether any material involves state secrets. So
+      again - pretty much anything could be considered a “state secret”.
+    </p>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 50px; margin-bottom: 10px">
+    - The Timeline -
+  </h2>
+  <p class="subhead" style="margin-bottom: 30px">
+    It took a quarter-century for the bill to be enacted
+  </p>
+
+  <div class="content">
+    <p>
+      The enactment of laws under Article 23 has been a contentious issue,
+      which has taken over 20 years and witnessed the shift of city’s
+      political landscape.
+    </p>
+    <p>
+      When Hong Kong was handed over to China in 1997, the Basic Law was
+      established to govern the city, promising a high degree of autonomy
+      under the principle of "one country, two systems."
+    </p>
+    <p>
+      While Article 23 of the Basic Law mandates Hong Kong to enact its own
+      national security laws, the central government took a rather mild
+      attitudes towards the legislation.
+    </p>
+    <p>But everything went wrong in 2002.</p>
+  </div>
+
+  <div class="content">
+    <p>
+      And yes, Regina Ip who failed in 2003, is still there. The now senior
+      legislator of Hong Kong told CNN that the legislation is "a task that
+      has been outstanding for 27 years".
+    </p>
+    <p>
+      "We're not bowing to the pressure of China", said Ip. "it's our legal,
+      constituinal and moral responsibility to safegurd national security."
+    </p>
+    <p>
+      While the Hong Kong government is trying to persuade investors that the
+      city is still going to be the financial hub, harms have already been
+      done. The Department of State released a statement on February 28
+      expressing its concern over the undermining of the “One Country, Two
+      Systems” framework.
+    </p>
+    <p>
+      "We are particularly concerned by Hong Kong authorities' proposal to
+      adopt broad and vague definitions of state secrets and external
+      interference," said the spokesperson. "That could be used to eliminate
+      dissent through the fear of arrest and detention."
+    </p>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - The Heritage -
+  </h2>
+
+  <div class="vending-machine-wrapper">
+    <h3 class="vending-machine-headline">The Caffeine Vending Machine</h3>
+    <div class="vending-machine">
+      <svg id="vending-machine" width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Vending machine frame -->
+        <rect x="10" y="10" width="380" height="580" fill="#cccccc" stroke="#000000" stroke-width="5" />
+        <!-- Drinks display area -->
+        <rect id="vending-drinks-area" x="30" y="30" width="240" height="540" fill="none" stroke="#000000" stroke-width="2" />
+        <!-- Filters -->
+        <text x="300" y="50" font-family="Arial" font-size="20">Filters</text>
+        <text x="300" y="80" font-family="Arial" font-size="14">Type</text>
+        <foreignObject x="300" y="90" width="80" height="30">
+          <select id="vending-filter-type">
+            <option value="">Select Type</option>
+          </select>
+        </foreignObject>
+        <text x="300" y="140" font-family="Arial" font-size="14">Brand</text>
+        <foreignObject x="300" y="150" width="80" height="30">
+          <select id="vending-filter-brand">
+            <option value="">Select Brand</option>
+          </select>
+        </foreignObject>
+        <!-- Selected Drinks -->
+        <text x="300" y="200" font-family="Arial" font-size="20">Selected</text>
+        <foreignObject x="300" y="220" width="80" height="120">
+          <div class="vending-selected-drinks"></div>
+        </foreignObject>
+        <!-- Checkout -->
+        <foreignObject x="300" y="360" width="80" height="50">
+          <button id="vending-checkout">Check Out</button>
+        </foreignObject>
+        <text x="300" y="430" font-family="Arial" font-size="14">Your Total Caffeine is: <span id="vending-total-caffeine">0</span> mg</text>
+        <!-- Clear Selection -->
+        <foreignObject x="300" y="450" width="80" height="50">
+          <button id="vending-clear-selection">Clear Selection</button>
+        </foreignObject>
+      </svg>
+    </div>
+  </div>
+
+  <div class="content">
+    <p>
+      "The legislation of Article 23 showed Beijing's changing attitude on
+      Hong Kong and the 'One Country, Two Systems'," said Johnny Lau, a senior
+      news commentor. "The 1 July march in 2003 greatly alarmed Beijing,
+      leading mainland Chinese authorities to send a significant number of
+      people southward to investigate. They attributed Hong Kongers'
+      opposition to Article 23 to a lack of 'emotional reunification'."
+    </p>
+    <p>
+      Press freedom has always been an advantage that differentiates Hong Kong
+      from the mainland and is also the pillar of civil society that Hong Kong
+      people were once proud of. However, Article 23 means it's in jeopardy.
+    </p>
+    <p>
+      Radio Free Asia is known as the first outlet to end its Hong Kong
+      business after the bill was passed.
+    </p>
+    <p>
+      "Their broad and vague definitions make it hard for journalists to make
+      sound judgement on what could constitute a threat to national security,"
+      said Hong Kong Journalists Association. "This could create a chilling
+      effect, deterring the press from doing relevant reporting due to legal
+      concerns."
+    </p>
+  </div>
+
+  <div style="text-align: center">
+    <img src="skyline.png" style="width: 50%; text-align: center" />
+  </div>
+
+  <script src="app.js"></script>
+
+  <script>
+    const data = [
+      {
+        drink: "Monster Energy 16 oz",
+        caffeine: 160,
+        equivalent: 1.066667,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/monster.jpg",
+      },
+      {
+        drink: "Celsius Energy Drink 12 oz",
+        caffeine: 200,
+        equivalent: 1.333333333,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/celsius-energy-drink.jpg",
+      },
+      {
+        drink: "C4 Smart Energy Drink 16 oz",
+        caffeine: 200,
+        equivalent: 1.333333333,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/c4-smart-energy.jpg",
+      },
+      {
+        drink: "Bang Energy 16 oz",
+        caffeine: 300,
+        equivalent: 2,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/bang-energy-drink.jpg",
+      },
+      {
+        drink: "Panera Charged Lemonade 30 oz",
+        caffeine: 160,
+        equivalent: 1.066667,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/charged-lemonade.jpg",
+      },
+      {
+        drink: "Mountain Dew 12 oz",
+        caffeine: 54,
+        equivalent: 0.36,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew.jpg",
+      },
+    ];
+
+    const coffeeCupImages = {
+      0.1: "0.1.png",
+      0.3: "0.3.png",
+      1: "1.png",
+      1.3: "1.3.png",
+      2: "2.png",
+      2.5: "2.5.png",
+    };
+
+    let currentIndex = 0;
+
+    const container = d3.select("#visualization");
+
+    function updateVisualization(index) {
+      container.html(""); // Clear previous content
+
+      const item = data[index];
+
+      // Create a div for drink details
+      const drinkDetails = container
+        .append("div")
+        .attr("class", "drink-details");
+
+      drinkDetails.append("img").attr("src", item.pic_link);
+      drinkDetails.append("div").text(item.drink);
+      drinkDetails.append("div").text(`Total Caffeine: ${item.caffeine} mg`);
+
+      container.append("div").attr("class", "equal-sign").text("≈");
+
+      const equivalentCups = Math.round(item.equivalent * 10) / 10;
+      let coffeeImage;
+      if (equivalentCups <= 0.1) {
+        coffeeImage = coffeeCupImages["0.1"];
+      } else if (equivalentCups <= 0.3) {
+        coffeeImage = coffeeCupImages["0.3"];
+      } else if (equivalentCups <= 1) {
+        coffeeImage = coffeeCupImages["1"];
+      } else if (equivalentCups <= 1.3) {
+        coffeeImage = coffeeCupImages["1.3"];
+      } else if (equivalentCups <= 2) {
+        coffeeImage = coffeeCupImages["2"];
+      } else {
+        coffeeImage = coffeeCupImages["2.5"];
+      }
+
+      container
+        .append("img")
+        .attr("src", coffeeImage)
+        .attr("class", "coffee-cup");
+    }
+
+    d3.select("#left-arrow").on("click", () => {
+      currentIndex = (currentIndex - 1 + data.length) % data.length;
+      updateVisualization(currentIndex);
+    });
+
+    d3.select("#right-arrow").on("click", () => {
+      currentIndex = (currentIndex + 1) % data.length;
+      updateVisualization(currentIndex);
+    });
+
+    // Initial render
+    updateVisualization(currentIndex);
+  </script>
+
+  <div class="content" style="text-align: center">
+    <a href="https://thomastaoli.github.io/portfolio.html">Back to my portfolio page</a>
+  </div>
+  <br/>
+
+</body>
+
 </html>

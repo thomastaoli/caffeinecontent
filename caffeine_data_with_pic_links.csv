@@ -1,0 +1,636 @@
+link,drink_name,brand,fl_oz,calories,caffeine_mg,mg/floz,type,pic_link
+/caffeine-content/28-energy-drink-black-white,28 Black Energy Drink,other,8.46,125,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/28-energy-drink-black-white.jpg
+/caffeine-content/3-caffeine-water,3 Water ,other,16.9,0,50,3,Water,https://www.caffeineinformer.com/wp-content/caffeine/3-caffeine-water.jpg
+/caffeine-content/3d-energy-drink,3D Energy Drink,other,16,15,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/3d-energy-drink.jpg
+/caffeine-content/4-purpose,4 Purpose Energy Drink,other,8.46,70,70,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/4-purpose.jpg
+/caffeine-content/4-c-energy-rush,4C Energy Drink Mix,other,16.9,15,170,10.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/4-c-energy-rush.jpg
+/caffeine-content/5-hour-energy,5 Hour Energy,other,1.93,4,200,103.6,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/5-hour-energy.jpg
+/caffeine-content/5-hour-extra-strength,5 Hour Energy Extra Strength,other,1.93,0,230,119.2,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/5-hour-extra-strength.jpg
+/caffeine-content/7-eleven-brewed-coffee,7 Eleven Brewed Coffee,other,16,5,280,17.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/7-eleven-brewed-coffee.jpg
+/caffeine-content/7-eleven-energy-shot,7-Eleven Energy Shot,other,2,0,260,130,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/7-eleven-energy-shot.jpg
+/caffeine-content/7-up,7-Up,other,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/7-up.jpg
+/caffeine-content/adrenaline-shoc-energy-drink,A Shoc,other,16,10,250,15.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/adrenaline-shoc-energy-drink.jpg
+/caffeine-content/a-w-cream-soda,A&amp;W Cream Soda,other,12,170,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/a-w-cream-soda.jpg
+/caffeine-content/aw-root-beer,A&W Root Beer,A&W,12,170,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/aw-root-beer.jpg
+/caffeine-content/diet-a-w-cream-soda,A&W Zero Sugar Cream Soda,A&W,12,0,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-a-w-cream-soda.jpg
+/caffeine-content/diet-turbo-punch,ABB Turbo Tea Zero,other,18,0,120,6.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/diet-turbo-punch.jpg
+/caffeine-content/accelerator,Accelerator,other,12,10,150,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/accelerator.jpg
+/caffeine-content/slam-energy-drink,Advocare Slam Energy Shot,other,2,10,120,60,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/slam-energy-drink.jpg
+/caffeine-content/advocare-slim,Advocare Slim,other,8,0,120,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/advocare-slim.jpg
+/caffeine-content/afri-cola,Afri Cola,other,11.16,139,83,7.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/afri-cola.jpg
+/caffeine-content/aha-sparkling-water,AHA Sparkling Water,other,12,0,30,2.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/aha-sparkling-water.jpg
+/caffeine-content/alani-nu,Alani Nu Energy Drink,other,12,10,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/alani-nu.jpg
+/caffeine-content/ale-8-1,Ale 8 1,other,12,120,37,3.1,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ale-8-1.jpg
+/caffeine-content/all-in,ALL IN Energy Drink,other,12,25,75,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/all-in.jpg
+/caffeine-content/alpine-start,Alpine Start Instant Coffee,other,8,0,120,15,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/alpine-start.jpg
+/caffeine-content/alsa-energy,Alsa Energy Drink Mix,other,16,30,100,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/alsa-energy.jpg
+/caffeine-content/caffe-americano,Americano Coffee,other,12,5,154,12.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/caffe-americano.jpg
+/caffeine-content/amino-energy-drink,AMIN.O. Energy Drink,other,12,5,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/amino-energy-drink.jpg
+/caffeine-content/ripped-force-energy-drink,Amino Force Energy Drink,other,22,0,200,9.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/ripped-force-energy-drink.jpg
+/caffeine-content/arbonne-energy-drink,Arbonne Energy Fizz Stck,other,8,15,55,6.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/arbonne-energy-drink.jpg
+/caffeine-content/jamocha-shake,Arby's Jamocha Shake,other,16,830,12,0.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/jamocha-shake.jpg
+/caffeine-content/arnold-palmer-half-and-half,Arizona Arnold Palmer Half and Half,other,16.9,180,15,0.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/arnold-palmer-half-and-half.jpg
+/caffeine-content/arizona-caution-energy-drink,Arizona Energy Drink Rx,other,11.5,130,127,11,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/arizona-caution-energy-drink.jpg
+/caffeine-content/arizona-iced-tea,Arizona Iced Tea,other,16,190,30,1.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/arizona-iced-tea.jpg
+/caffeine-content/arti-sparkling-water,Arti Sparkling Water,other,12,0,120,10,Water,https://www.caffeineinformer.com/wp-content/caffeine/arti-sparkling-water.jpg
+/caffeine-content/axio,AXIO Energy Drink Mix,other,12,0,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/axio.jpg
+/caffeine-content/bai-drink,Bai Antioxidant Infusion,other,18,10,55,3.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bai-drink.jpg
+/caffeine-content/bai-boost,Bai Boost,other,11.47,10,110,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bai-boost.jpg
+/caffeine-content/balance-active-shot,Balance Active Shot,other,2,80,100,50,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/balance-active-shot.jpg
+/caffeine-content/balance-energy,Balance Energy Shot,other,2,77,150,75,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/balance-energy.jpg
+/caffeine-content/bang-energy-drink,Bang Energy,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bang-energy-drink.jpg
+/caffeine-content/bang-keto-coffee,Bang Keto Coffee,other,16,130,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bang-keto-coffee.jpg
+/caffeine-content/bang-natural,Bang Natural,other,16,0,250,15.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bang-natural.jpg
+/caffeine-content/bang-shot,Bang Shot,other,3,0,300,100,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/bang-shot.jpg
+/caffeine-content/bang-tea,Bang Sweet Tea,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bang-tea.jpg
+/caffeine-content/barista-bros,Barista Bros Iced Coffee,other,16.91,204,140,8.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/barista-bros.jpg
+/caffeine-content/barqs-red-creme-soda,Barqs Red Creme Soda,other,12,170,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/barqs-red-creme-soda.jpg
+/caffeine-content/barqs-root-beer,Barqs Root Beer,other,12,160,22,1.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/barqs-root-beer.jpg
+/caffeine-content/baskin-robbins-cappuccino-blast,Baskin Robbins Cappuccino Blast,other,24,470,234,9.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/baskin-robbins-cappuccino-blast.jpg
+/caffeine-content/bawls,Bawls,other,16,190,102,6.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/bawls.jpg
+/caffeine-content/be-beyond-energy,BE Beyond Energy Drink,other,12,15,160,13.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/be-beyond-energy.jpg
+/caffeine-content/beaver-buzz-energy-drink,Beaver Buzz Energy Drink,other,16,240,178,11.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/beaver-buzz-energy-drink.jpg
+/caffeine-content/beebad-energy-drink,BEEBAD Energy Drink,other,8.46,110,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/beebad-energy-drink.jpg
+/caffeine-content/berocca,Berocca,other,8,5,90,11.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/berocca.jpg
+/caffeine-content/berzerk,Berzerk Energy Drink Mix,other,16,5,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/berzerk.jpg
+/caffeine-content/best-choice-energy-drink-mix,Best Choice Strawberry Energy Drink Mix,other,8,5,120,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/best-choice-energy-drink-mix.jpg
+/caffeine-content/big-red-soda,Big Red Soda,other,12,150,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/big-red-soda.jpg
+/caffeine-content/big-train-java-chip-ice-coffee,Big Train Java Chip Ice Coffee,other,12,410,49,4.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/big-train-java-chip-ice-coffee.jpg
+/caffeine-content/big-train-spiced-chai,Big Train Spiced Chai,other,8,210,65,8.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/big-train-spiced-chai.jpg
+/caffeine-content/bigelow-tea,Bigelow Tea,other,8,0,45,5.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/bigelow-tea.jpg
+/caffeine-content/biggby-coffee,Biggby Brewed Coffee,other,16,0,200,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/biggby-coffee.jpg
+/caffeine-content/biggby-coffee-latte,Biggby Creamy Lattes,other,16,387,100,6.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/biggby-coffee-latte.jpg
+/caffeine-content/biggby-espresso-shot,Biggby Espresso,other,2,0,100,50,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/biggby-espresso-shot.jpg
+/caffeine-content/biggby-iced-coffee,Biggby Iced Coffee,other,16,0,155,9.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/biggby-iced-coffee.jpg
+/caffeine-content/biggby-iced-tea,Biggby Iced Tea,other,16,0,38,2.4,Tea,https://www.caffeineinformer.com/wp-content/caffeine/biggby-iced-tea.jpg
+/caffeine-content/bing-energy-drink,Bing Energy Drink,other,12,30,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bing-energy-drink.jpg
+/caffeine-content/biohazard-coffee,Biohazard Coffee,other,12,3,928,77.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/biohazard-coffee.jpg
+/caffeine-content/bizzy-coffee,Bizzy Cold Brew,other,2.67,0,125,46.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/bizzy-coffee.jpg
+/caffeine-content/black-bruin-energy-drink,Black Bruin Energy Drink,other,8.46,122,38,4.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/black-bruin-energy-drink.jpg
+/caffeine-content/black-ink-coffee,Black Ink Coffee,other,12,0,144,12,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/black-ink-coffee.jpg
+/caffeine-content/black-insomnia-coffee,Black Insomnia Coffee,other,12,0,1105,92.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/black-insomnia-coffee.jpg
+/caffeine-content/black-label,Black Label Brewed Coffee,other,12,0,1555,129.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/black-label.jpg
+/caffeine-content/blu-frog-energy-drink,Blu Frog Energy Drink,other,8.46,90,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/blu-frog-energy-drink.jpg
+/caffeine-content/blue-bolt-energy-drink,Blue Bolt (UK),other,8.46,112,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/blue-bolt-energy-drink.jpg
+/caffeine-content/asda-blue-charge,Blue Charge (UK),other,8.46,49,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/asda-blue-charge.jpg
+/caffeine-content/tesco-blue-spark,Blue Spark (UK),other,8.46,56,75,8.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/tesco-blue-spark.jpg
+/caffeine-content/bodyarmour-edge,Bodyarmour Edge,other,20,180,100,5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bodyarmour-edge.jpg
+/caffeine-content/bomb-energy-drink,Bomb Energy Drink,other,8.46,0,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bomb-energy-drink.jpg
+/caffeine-content/bomba-energy-drink,Bomba (EU),other,8.4,123,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bomba-energy-drink.jpg
+/caffeine-content/boost-energy-drink,Boost Energy (UK),other,8.46,58,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/boost-energy-drink.jpg
+/caffeine-content/boost-chocolate-drink,Boost Nutritional Drink,other,8,240,5,0.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/boost-chocolate-drink.jpg
+/caffeine-content/iced-coffee-bottled-dunkin,Bottled Iced Coffee Dunkin Donuts,other,13.7,260,197,14.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/iced-coffee-bottled-dunkin.jpg
+/caffeine-content/brein-fuel-energy-drink,BreinFuel ,other,12,60,360,30,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/brein-fuel-energy-drink.jpg
+/caffeine-content/brew-dr-uplift,Brew Dr Kombucha Uplift,other,14,80,130,9.3,Tea,https://www.caffeineinformer.com/wp-content/caffeine/brew-dr-uplift.jpg
+/caffeine-content/lipton-brisk-lemon,Brisk Iced Tea,other,12,70,11,0.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/lipton-brisk-lemon.jpg
+/caffeine-content/brown-rice-tea,Brown Rice Tea,other,8,0,4,0.5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/brown-rice-tea.jpg
+/caffeine-content/bubblr,Bubbl'r Sparkling Water,other,12,5,69,5.8,Water,https://www.caffeineinformer.com/wp-content/caffeine/bubblr.jpg
+/caffeine-content/bubly-bounce,Bubly Bounce Sparkling Water,other,12,0,35,2.9,Water,https://www.caffeineinformer.com/wp-content/caffeine/bubly-bounce.jpg
+/caffeine-content/bubly,Bubly Sparkling Water,other,12,0,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/bubly.jpg
+/caffeine-content/bucked-up,Bucked Up,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/bucked-up.jpg
+/caffeine-content/bulletproof-coffee,Bulletproof Coffee,other,8,0,145,18.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/bulletproof-coffee.jpg
+/caffeine-content/burn-uk,Burn Energy Drink,other,12,163,112,9.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/burn-uk.jpg
+/caffeine-content/c4-on-the-go,C4 On The Go,C4,12,0,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/c4-on-the-go.jpg
+/caffeine-content/c4-energy-drink,C4 Performance Energy,C4,16,0,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/c4-energy-drink.jpg
+/caffeine-content/c4-smart-energy,C4 Smart Energy Drink,C4,16,0,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/c4-smart-energy.jpg
+/caffeine-content/c4-ultimate,C4 Ultimate Energy Drink,C4,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/c4-ultimate.jpg
+/caffeine-content/bustelo-coffee,Cafe Bustelo,other,12,0,150,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/bustelo-coffee.jpg
+/caffeine-content/cafe-con-leche,Cafe Con Leche,other,6,56,154,25.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cafe-con-leche.jpg
+/caffeine-content/cafe-mocha,Caffe Mocha,other,12,239,152,12.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cafe-mocha.jpg
+/caffeine-content/caffe-nero-coffee,Caffe Nero Coffee,other,12,5,160,13.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/caffe-nero-coffee.jpg
+/caffeine-content/califia-cold-brew,Califia Farms Cold Brew Coffee,other,8,10,180,22.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/califia-cold-brew.jpg
+/caffeine-content/green-tea-ginger-ale,Canada Dry Green Tea Ginger Ale,other,12,140,9,0.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/green-tea-ginger-ale.jpg
+/caffeine-content/cannonball-coffee,Cannonball Coffee Maximum Charge (UK),other,12,0,1101,91.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cannonball-coffee.jpg
+/caffeine-content/cappuccino,Cappuccino,other,12,97,154,12.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cappuccino.jpg
+/caffeine-content/carabao,Carabao Energy Drink (UK),other,11.16,63,106,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/carabao.jpg
+/caffeine-content/caribou-bousted,Caribou BOUsted Sparkling Water,other,11.5,0,75,6.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/caribou-bousted.jpg
+/caffeine-content/caribou-coffee,Caribou Brewed Coffee,other,16,5,305,19.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/caribou-coffee.jpg
+/caffeine-content/caribou-cold-brew,Caribou Canned Cold Brew,other,11.5,10,177,15.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/caribou-cold-brew.jpg
+/caffeine-content/cascara,Cascara,other,8,0,36,4.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cascara.jpg
+/caffeine-content/cbd-coffee-green-roads,CBD Coffee,other,8,0,100,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cbd-coffee-green-roads.jpg
+/caffeine-content/celsius-energy-drink,Celsius Energy Drink,Celsius,12,10,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/celsius-energy-drink.jpg
+/caffeine-content/celsius-stevia,Celsius Stevia,Celsius,12,15,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/celsius-stevia.jpg
+/caffeine-content/chai-tea,Chai Tea,other,8,0,50,6.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/chai-tea.jpg
+/caffeine-content/chameleon-cold-brew-coffee,Chameleon Cold Brew Coffee,Chameleon,8,15,210,26.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chameleon-cold-brew-coffee.jpg
+/caffeine-content/chameleon-rtd,Chameleon Cold Brew RTD,Chameleon,10,10,230,23,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chameleon-rtd.jpg
+/caffeine-content/chameleon-milk,Chameleon Cold Brew With Milk,Chameleon,11,100,100,9.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chameleon-milk.jpg
+/caffeine-content/cheerwine,Cheerwine,other,12,150,47,3.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/cheerwine.jpg
+/caffeine-content/chick-fil-a-coffee,Chick-fil-A Brewed Coffee,Chick-fil-A,10,0,136,13.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chick-fil-a-coffee.jpg
+/caffeine-content/chick-fil-a-frosted-coffee,Chick-fil-A Frosted Coffee,Chick-fil-A,14,240,130,9.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chick-fil-a-frosted-coffee.jpg
+/caffeine-content/chick-fil-a-iced-coffee,Chick-fil-A Iced Coffee,Chick-fil-A,14,190,80,5.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/chick-fil-a-iced-coffee.jpg
+/caffeine-content/chick-fil-a-iced-tea,Chick-fil-A Iced Tea,Chick-fil-A,16,120,62,3.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/chick-fil-a-iced-tea.jpg
+/caffeine-content/choffy,Choffy (roasted cacao),other,6,0,23,3.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/choffy.jpg
+/caffeine-content/cintron-energy-drink,Cintron Energy Drink,other,8.4,60,85,10.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/cintron-energy-drink.jpg
+/caffeine-content/clif-shot-turbo-energy-gel,Clif Shot Energy Gel,other,1.2,100,100,83.3,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/clif-shot-turbo-energy-gel.jpg
+/caffeine-content/club-mate,Club Mate (EU),other,16.91,160,100,5.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/club-mate.jpg
+/caffeine-content/coca-cola-plus,Coca Cola Plus,Coca Cola,470,0,45,0.1,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coca-cola-plus.jpg
+/caffeine-content/coca-cola-free,Coca-Cola Caffeine Free,Coca Cola,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coca-cola-free.jpg
+/caffeine-content/cherry-coke,Coca-Cola Cherry,Coca Cola,12,150,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/cherry-coke.jpg
+/caffeine-content/coca-cola-cherry-vanilla,Coca-Cola Cherry Vanilla,Coca Cola,12,140,34,2.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/coca-cola-cherry-vanilla.jpg
+/caffeine-content/coke-zero-cherry,Coca-Cola Cherry Zero Sugar,Coca Cola,12,0,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coke-zero-cherry.jpg
+/caffeine-content/coca-cola-classic,Coca-Cola Classic,Coca Cola,12,140,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coca-cola-classic.jpg
+/caffeine-content/coke-energy-drink,Coca-Cola Energy,Coca Cola,12,140,114,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/coke-energy-drink.jpg
+/caffeine-content/orange-vanilla-coke,Coca-Cola Orange Vanilla,Coca Cola,12,140,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/orange-vanilla-coke.jpg
+/caffeine-content/vanilla-coke,Coca-Cola Vanilla,Coca Cola,12,150,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/vanilla-coke.jpg
+/caffeine-content/coke-zero-vanilla,Coca-Cola Vanilla Zero Sugar,Coca Cola,12,0,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coke-zero-vanilla.jpg
+/caffeine-content/coca-cola-coffee,Coca-Cola With Coffee,Coca Cola,12,70,69,5.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coca-cola-coffee.jpg
+/caffeine-content/coke-zero,Coca-Cola Zero Sugar,Coca Cola,12,0,34,2.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/coke-zero.jpg
+/caffeine-content/cocaine-energy-drink,Cocaine Energy Drink,other,12,90,280,23.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/cocaine-energy-drink.jpg
+/caffeine-content/coffee-brewed,Coffee,other,8,0,163,20.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-brewed.jpg
+/caffeine-content/coffee-decaf-instant,"Coffee (Decaf, Instant)",other,8,6,2,0.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-decaf-instant.jpg
+/caffeine-content/coffee-instant,Coffee (Instant),other,8,0,57,7.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-instant.jpg
+/caffeine-content/coffee-bean-tea-leaf-coffee,Coffee Bean & Tea leaf Coffee,other,16,5,333,20.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-bean-tea-leaf-coffee.jpg
+/caffeine-content/coffee-friend,Coffee Friend Brewed Coffee,other,8.46,0,145,17.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-friend.jpg
+/caffeine-content/coffee-leaf-tea,Coffee Leaf Tea,other,8,0,20,2.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-leaf-tea.jpg
+/caffeine-content/cogo-hot-chocolate,COGO Caffeinated Hot Chocolate,other,6,110,98,16.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cogo-hot-chocolate.jpg
+/caffeine-content/cold-brew-tea,Cold Brew Tea,other,8,0,70,8.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/cold-brew-tea.jpg
+/caffeine-content/cool-brew-coffee,CoolBrew Coffee,other,10,0,60,6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/cool-brew-coffee.jpg
+/caffeine-content/costa-coffee,Costa Coffee,other,10.14,222,241,23.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/costa-coffee.jpg
+/caffeine-content/cranenergy,Cran Energy Juice,other,10,40,70,7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/cranenergy.jpg
+/caffeine-content/crave-energy-drink-mix,Crave Energy Drink (UK),other,8.43,10,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/crave-energy-drink-mix.jpg
+/caffeine-content/crio-bru,Crio Bru Brewed Cacao,other,8,20,10,1.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/crio-bru.jpg
+/caffeine-content/crunk-energy-drink,Crunk Energy Drink,other,16,200,192,12,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/crunk-energy-drink.jpg
+/caffeine-content/crystal-light-energy,Crystal Light Energy Mix,other,16,10,60,3.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/crystal-light-energy.jpg
+/caffeine-content/crystal-light-iced-tea,Crystal Light Iced Tea,other,8,5,10,1.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/crystal-light-iced-tea.jpg
+/caffeine-content/dare-iced-coffee,Dare Iced Coffee,other,16.91,429,160,9.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dare-iced-coffee.jpg
+/caffeine-content/dark-dog-energy-drink,Dark Dog Organic Energy,other,12,110,114,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/dark-dog-energy-drink.jpg
+/caffeine-content/death-wish-canned-cold-brew-coffee,Death Wish Canned Cold Brew,other,8,15,300,37.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/death-wish-canned-cold-brew-coffee.jpg
+/caffeine-content/death-wish-coffee,Death Wish Coffee,other,12,0,728,60.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/death-wish-coffee.jpg
+/caffeine-content/death-wish-latte,Death Wish Latte,other,8,170,300,37.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/death-wish-latte.jpg
+/caffeine-content/coffee-decaf-brewed,Decaf Coffee,other,8,2,6,0.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/coffee-decaf-brewed.jpg
+/caffeine-content/demon-energy,Demon Energy Drink,other,16.91,253,160,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/demon-energy.jpg
+/caffeine-content/diet-barqs,Diet Barqs Root Beer,other,12,0,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-barqs.jpg
+/caffeine-content/diet-cheerwine,Diet Cheerwine,other,12,0,47,3.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-cheerwine.jpg
+/caffeine-content/diet-coke,Diet Coke,other,12,0,46,3.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-coke.jpg
+/caffeine-content/diet-coke-with-splenda,Diet Coke with Splenda,other,12,0,46,3.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-coke-with-splenda.jpg
+/caffeine-content/diet-dr-pepper,Diet Dr Pepper,other,12,0,41,3.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-dr-pepper.jpg
+/caffeine-content/diet-mountain-dew,Diet Mountain Dew,other,12,0,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-mountain-dew.jpg
+/caffeine-content/diet-pepsi-cola,Diet Pepsi,other,12,0,35,2.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-pepsi-cola.jpg
+/caffeine-content/diet-rc-cola,Diet RC Cola,other,12,0,48,4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-rc-cola.jpg
+/caffeine-content/diet-pepsi-wild-cherry,Diet Wild Cherry Pepsi,other,12,0,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-pepsi-wild-cherry.jpg
+/caffeine-content/doc-360-soda,doc Soda,other,12,150,60,5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/doc-360-soda.jpg
+/caffeine-content/double-cola,Double Cola,other,12,160,36,3,Soda,https://www.caffeineinformer.com/wp-content/caffeine/double-cola.jpg
+/caffeine-content/dr-pepper,Dr Pepper,other,12,150,42,3.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/dr-pepper.jpg
+/caffeine-content/dr-pepper-10-soda,Dr Pepper 10,other,12,10,51,4.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/dr-pepper-10-soda.jpg
+/caffeine-content/dr-shasta-soda,Dr Shasta Soda,other,12,0,29,2.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/dr-shasta-soda.jpg
+/caffeine-content/driftaway-coffee,Driftaway Coffee,other,8,0,160,20,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/driftaway-coffee.jpg
+/caffeine-content/kyoto-coffee,Dripdash Kyoto Coffee,other,6,0,225,37.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/kyoto-coffee.jpg
+/caffeine-content/duff-energy-drink,Duff Energy Drink,other,12,170,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/duff-energy-drink.jpg
+/caffeine-content/dunkin-shot-in-the-dark,Dunkin Donuts Shot In The Dark,Dunkin',8.1,80,134,16.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-shot-in-the-dark.jpg
+/caffeine-content/dunkin-cold-brew-coffee,Dunkin' Cold Brew,Dunkin',24,5,260,10.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-cold-brew-coffee.jpg
+/caffeine-content/dunkin-donuts-coffee,Dunkin' Donuts Brewed Coffee,Dunkin',14,5,210,15,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-donuts-coffee.jpg
+/caffeine-content/dunkaccino,Dunkin' Donuts Dunkaccino,Dunkin',14,350,83,5.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkaccino.jpg
+/caffeine-content/dunkin-extra-charged-coffee,Dunkin' Donuts Extra Charged Coffee,Dunkin',14,10,252,18,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-extra-charged-coffee.jpg
+/caffeine-content/dunkin-iced-coffee,Dunkin' Donuts Iced Coffee,Dunkin',24,5,294,12.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-iced-coffee.jpg
+/caffeine-content/dunkin-iced-latte,Dunkin' Donuts Iced Latte,Dunkin',24,100,166,6.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-iced-latte.jpg
+/caffeine-content/dunkin-iced-tea,Dunkin' Donuts Iced Tea,Dunkin',24,230,63,2.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-iced-tea.jpg
+/caffeine-content/dunkin-donuts-latte,Dunkin' Donuts Latte,Dunkin',14,100,166,11.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dunkin-donuts-latte.jpg
+/caffeine-content/blue-rebel-energy-drink,Dutch Bros Blue Rebel Energy Drink,other,8.4,160,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/blue-rebel-energy-drink.jpg
+/caffeine-content/dutch-bros-coffee,Dutch Bros Coffee (Classic),other,20,10,187,9.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dutch-bros-coffee.jpg
+/caffeine-content/dynapep-energy-shot,DynaPep,other,0.14,0,100,714.3,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/dynapep-energy-shot.jpg
+/caffeine-content/e6-energy-shot,E6 Energy Shot,other,1.93,0,235,121.8,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/e6-energy-shot.jpg
+/caffeine-content/eboost-energy-drink,EBOOST Energy Drink Mix,other,8,5,110,13.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/eboost-energy-drink.jpg
+/caffeine-content/eboost-super-fuel,EBOOST Super Fuel,other,12,20,110,9.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/eboost-super-fuel.jpg
+/caffeine-content/eboost-workout,EBOOST Workout Crusher Mix,other,8,40,175,21.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/eboost-workout.jpg
+/caffeine-content/eight-o-clock,Eight O'Clock Coffee,other,8,0,112,14,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/eight-o-clock.jpg
+/caffeine-content/einstein-bros-coffee,Einstein Bros Coffee,other,16,0,206,12.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/einstein-bros-coffee.jpg
+/caffeine-content/electric-monkey-wild,Electric Monkey Wild Energy Drink,other,16,220,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/electric-monkey-wild.jpg
+/caffeine-content/enerbee,EnerBee Energy Drink,other,12,80,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/enerbee.jpg
+/caffeine-content/equip-pure-energy,Equip Pure Energy Shot,other,1.8,35,100,55.6,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/equip-pure-energy.jpg
+/caffeine-content/espresso-monster,Espresso Monster,other,8.4,170,160,19,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/espresso-monster.jpg
+/caffeine-content/espresso,Espresso Shot,other,1.5,0,77,51.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/espresso.jpg
+/caffeine-content/eternal-extra-strength,Eternal Energy Extra Strength,other,1.93,0,280,145.1,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/eternal-extra-strength.jpg
+/caffeine-content/eternal-energy-shot,Eternal Energy Shot,other,1.93,0,230,119.2,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/eternal-energy-shot.jpg
+/caffeine-content/euroshopper-energy-drink,Euro Shopper Energy Drink (EU),other,8.46,115,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/euroshopper-energy-drink.jpg
+/caffeine-content/fakeer-energy-drink,Fakeer Energy Drink (EU),other,12.52,148,118,9.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/fakeer-energy-drink.jpg
+/caffeine-content/fanta-soft-drinks,Fanta,other,12,160,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/fanta-soft-drinks.jpg
+/caffeine-content/fast-lane,Fast Lane Black Tea,other,8,0,110,13.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/fast-lane.jpg
+/caffeine-content/faygo-cola,Faygo Cola,other,12,165,43,3.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/faygo-cola.jpg
+/caffeine-content/faygo-moon-mist,Faygo Moon Mist,other,12,150,20,1.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/faygo-moon-mist.jpg
+/caffeine-content/flat-white-coffee,Flat White,other,12,170,130,10.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/flat-white-coffee.jpg
+/caffeine-content/folgers,Folgers Coffee,other,8,0,112,14,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/folgers.jpg
+/caffeine-content/forto-coffee,Forto Organic Coffee Shot,other,2,35,225,112.5,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/forto-coffee.jpg
+/caffeine-content/freeway-cola,Freeway Cola,other,11.16,135,32,2.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/freeway-cola.jpg
+/caffeine-content/fresca,Fresca,other,12,0,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/fresca.jpg
+/caffeine-content/fritz-kola,Fritz Kola (EU),other,11.16,135,83,7.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/fritz-kola.jpg
+/caffeine-content/full-throttle-energy-drink,Full Throttle Energy Drink,other,16,220,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/full-throttle-energy-drink.jpg
+/caffeine-content/fuze-iced-tea,Fuze Iced Tea,other,24,160,24,1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/fuze-iced-tea.jpg
+/caffeine-content/gatorade-energize,Gatorade Bolt 24 Energize,other,16.9,40,75,4.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/gatorade-energize.jpg
+/caffeine-content/gatorade-fast-twitch,Gatorade Fast Twitch,other,12,5,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/gatorade-fast-twitch.jpg
+/caffeine-content/g-fuel-rtd-energy-drink,GFuel Cans,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/g-fuel-rtd-energy-drink.jpg
+/caffeine-content/g-fuel-energy-drink-mix,GFuel Energy Drink Mix,other,16,15,140,8.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/g-fuel-energy-drink-mix.jpg
+/caffeine-content/ghost,Ghost Energy Drink,other,16,5,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/ghost.jpg
+/caffeine-content/ginger-ale-beer,Ginger Ale,other,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ginger-ale-beer.jpg
+/caffeine-content/gloria-jeans-coffee,Gloria Jean's Coffee,other,2.028,0,67,33,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/gloria-jeans-coffee.jpg
+/caffeine-content/go-fast-energy-drink,Go Fast Energy Drink,other,16,200,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/go-fast-energy-drink.jpg
+/caffeine-content/go-fast-high-octane,Go Fast High Octane Energy Drink,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/go-fast-high-octane.jpg
+/caffeine-content/go-girl-energy-drink,Go Girl Energy Drink,other,12,25,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/go-girl-energy-drink.jpg
+/caffeine-content/goat-fuel,Goat Fuel,other,12,15,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/goat-fuel.jpg
+/caffeine-content/gold-peak-coffee,Gold Peak Coffee,other,8,5,126,15.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/gold-peak-coffee.jpg
+/caffeine-content/gold-peak-tea,Gold Peak Tea,other,18.5,0,48,2.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/gold-peak-tea.jpg
+/caffeine-content/gothrider-gasoline,Gothrider Gasoline Coffee,other,8,0,200,25,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/gothrider-gasoline.jpg
+/caffeine-content/gourmesso,Gourmesso Coffee Pods,other,1.35,0,65,48.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/gourmesso.jpg
+/caffeine-content/walmart-energy-drink-enhancer,Great Value Energy Drink Enhancers,other,8,0,50,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/walmart-energy-drink-enhancer.jpg
+/caffeine-content/walmart-energy-drink-mix,Great Value Energy Drink Mix,other,16,10,120,7.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/walmart-energy-drink-mix.jpg
+/caffeine-content/greek-coffee,Greek Coffee (Metrios),other,2,25,50,25,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/greek-coffee.jpg
+/caffeine-content/green-cola,Green Cola,other,12,0,37,3.1,Soda,https://www.caffeineinformer.com/wp-content/caffeine/green-cola.jpg
+/caffeine-content/gridlock-aldi,Gridlock Energy Drink,other,16,200,140,8.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/gridlock-aldi.jpg
+/caffeine-content/guayaki-lemon-elation-energy-drink,Guayaki Canned Yerba Mate,other,15.5,120,150,9.7,Tea,https://www.caffeineinformer.com/wp-content/caffeine/guayaki-lemon-elation-energy-drink.jpg
+/caffeine-content/guayaki-pure-yerba-mate,Guayaki Yerba Mate Bottled Tea,other,16,80,140,8.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/guayaki-pure-yerba-mate.jpg
+/caffeine-content/guayusa-tea,Guayusa Tea,other,8,0,41,5.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/guayusa-tea.jpg
+/caffeine-content/guru,GURU Energy Drink,other,12,115,140,11.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/guru.jpg
+/caffeine-content/guru-energy-water,GURU Sparkling Energy Water,other,12,0,100,8.3,Water,https://www.caffeineinformer.com/wp-content/caffeine/guru-energy-water.jpg
+/caffeine-content/gym-brew-coffee,GymBrew Coffee,other,12,4,333,27.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/gym-brew-coffee.jpg
+/caffeine-content/hell-energy-coffee,Hell Energy Coffee,other,8.46,150,100,11.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/hell-energy-coffee.jpg
+/caffeine-content/hell-energy-drink,Hell Energy Drink (EU),other,8.46,115,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/hell-energy-drink.jpg
+/caffeine-content/heroec-water,Heroec Energy Water,other,16.9,0,60,3.6,Water,https://www.caffeineinformer.com/wp-content/caffeine/heroec-water.jpg
+/caffeine-content/hi-ball-energy-drink,Hi Ball Energy Drink,other,16,0,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/hi-ball-energy-drink.jpg
+/caffeine-content/hicaf-tea,HICAF Tea,other,8,0,110,13.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/hicaf-tea.jpg
+/caffeine-content/high-brew-coffee,High Brew Coffee,other,8,50,140,17.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/high-brew-coffee.jpg
+/caffeine-content/high-voltage,High Voltage Coffee (AU),other,12,0,1150,95.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/high-voltage.jpg
+/caffeine-content/hint-kick-water,Hint Caffeine Kick Water,other,16,0,60,3.8,Water,https://www.caffeineinformer.com/wp-content/caffeine/hint-kick-water.jpg
+/caffeine-content/honest-teas,Honest Iced Tea,other,16.9,70,63,3.7,Tea,https://www.caffeineinformer.com/wp-content/caffeine/honest-teas.jpg
+/caffeine-content/hyde-xtreme,Hyde Xtreme,other,12,0,400,33.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/hyde-xtreme.jpg
+/caffeine-content/hype-energy-drinks,Hype Energy Drink (EU),other,8.46,108,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/hype-energy-drinks.jpg
+/caffeine-content/ibc-root-beer,IBC Root Beer,other,12,160,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ibc-root-beer.jpg
+/caffeine-content/illy-issimo-latte-macchiato,Illy Issimo Cafe,other,6.8,45,155,22.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/illy-issimo-latte-macchiato.jpg
+/caffeine-content/inca-kola,Inca Kola,other,12,140,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/inca-kola.jpg
+/caffeine-content/indulgio-cappuccinos,Indulgio Cappuccino,other,8,79,20,2.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/indulgio-cappuccinos.jpg
+/caffeine-content/inkos-white-tea-energy,Inko's White Tea Energy,other,15.5,100,165,10.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/inkos-white-tea-energy.jpg
+/caffeine-content/international-delight,International Delight Iced Coffee,other,12,180,88,7.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/international-delight.jpg
+/caffeine-content/irn-bru-32-energy-drink,Irn Bru (UK),other,11.16,65,30,2.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/irn-bru-32-energy-drink.jpg
+/caffeine-content/java-kick,Java Kick Coffee Cola,other,12,130,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/java-kick.jpg
+/caffeine-content/java-monster,Java Monster,other,15,220,200,13.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/java-monster.jpg
+/caffeine-content/java-monster-triple-shot,Java Monster 300,other,15,200,300,20,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/java-monster-triple-shot.jpg
+/caffeine-content/joker-energy-drink,Joker Mad Energy,other,16,260,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/joker-energy-drink.jpg
+/caffeine-content/juice-monster,Juice Monster,other,16,160,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/juice-monster.jpg
+/caffeine-content/juvee,Juvee,other,12,5,128,10.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/juvee.jpg
+/caffeine-content/keurig-decaf,K Cup Decaf,other,8,0,4,0.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/keurig-decaf.jpg
+/caffeine-content/k-cup-tea,K Cup Tea,other,8,0,41,5.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/k-cup-tea.jpg
+/caffeine-content/k-cup-coffee,K-Cup Coffee,other,8,0,100,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/k-cup-coffee.jpg
+/caffeine-content/kaffn8,Kaffn8 Liquified Caffeine,other,0.25,0,75,300,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/kaffn8.jpg
+/caffeine-content/kickapoo,Kickapoo Soda: Joy Juice & Fruit Shine,other,12,190,40,3.3,Soda,https://www.caffeineinformer.com/wp-content/caffeine/kickapoo.jpg
+/caffeine-content/kill-cliff,Kill Cliff Energy X Recover,other,12,20,25,2.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/kill-cliff.jpg
+/caffeine-content/kill-cliff-ignite-energy-drink,Kill Cliff Ignite,other,12,25,150,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/kill-cliff-ignite-energy-drink.jpg
+/caffeine-content/killer-coffee,Killer Coffee (AU),other,8.46,0,430,50.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/killer-coffee.jpg
+/caffeine-content/kin-euphorics,Kin Spritz,other,8,25,50,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/kin-euphorics.jpg
+/caffeine-content/kirkland-energy-shot,Kirkland Energy Shot,other,2,5,180,90,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/kirkland-energy-shot.jpg
+/caffeine-content/koe,KOE Kombucha,other,12,35,15,1.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/koe.jpg
+/caffeine-content/kombucha-tea,Kombucha Tea,other,8,30,24,3,Tea,https://www.caffeineinformer.com/wp-content/caffeine/kombucha-tea.jpg
+/caffeine-content/kona-gold,Kona Gold Energy Drink,other,12,150,115,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/kona-gold.jpg
+/caffeine-content/la-colombe-cold-brew-coffee,La Colombe Cold Brew ,other,9,5,180,20,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/la-colombe-cold-brew-coffee.jpg
+/caffeine-content/draft-latte,La Colombe Draft Latte,other,9,90,120,13.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/draft-latte.jpg
+/caffeine-content/la-croix,La Croix Sparkling Water,other,12,0,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/la-croix.jpg
+/caffeine-content/latte,Latte,other,160,160,154,9.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/latte.jpg
+/caffeine-content/levlup,LevlUp Gaming Booster,other,16.91,8,250,14.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/levlup.jpg
+/caffeine-content/limitless-caffeinated-sparkling-water,Limitless Sparkling Water,other,12,0,35,2.9,Water,https://www.caffeineinformer.com/wp-content/caffeine/limitless-caffeinated-sparkling-water.jpg
+/caffeine-content/lipton-iced-tea,Lipton Iced Tea,other,20,110,25,1.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/lipton-iced-tea.jpg
+/caffeine-content/lipton-natural-energy-tea,Lipton Natural Energy Tea,other,8,0,75,9.4,Tea,https://www.caffeineinformer.com/wp-content/caffeine/lipton-natural-energy-tea.jpg
+/caffeine-content/lipton-tea,Lipton Tea,other,8,0,55,6.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/lipton-tea.jpg
+/caffeine-content/liquid-death-iced-tea,Liquid Death Iced Tea,other,19.2,30,30,1.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/liquid-death-iced-tea.jpg
+/caffeine-content/help-energy-drink,Liquid Help Energy Drink,other,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/help-energy-drink.jpg
+/caffeine-content/liquid-ice-energy-drink,Liquid Ice Energy Drink,other,8.3,120,80,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/liquid-ice-energy-drink.jpg
+/caffeine-content/lift-plus-energy-drink,Live+ Energy Drink,other,16.9,227,150,8.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/lift-plus-energy-drink.jpg
+/caffeine-content/long-black-espresso,Long Black,other,6,2,154,25.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/long-black-espresso.jpg
+/caffeine-content/lucozade,Lucozade,other,12.85,133,46,3.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/lucozade.jpg
+/caffeine-content/pure-lyft,LYFT Energy Mix,other,8,4,125,15.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/pure-lyft.jpg
+/caffeine-content/m-150-energy-drink,M-150 Energy Drink,other,8.46,155,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/m-150-energy-drink.jpg
+/caffeine-content/mamma-chia-energy,Mamma Chia Energy,other,10,110,90,9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mamma-chia-energy.jpg
+/caffeine-content/mana-energy-potion,Mana Energy Potion,other,1.69,25,75,44.4,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/mana-energy-potion.jpg
+/caffeine-content/marquis,Marquis Energy Drink,other,12,0,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/marquis.jpg
+/caffeine-content/kevita-kombucha,Master Brew Kombucha,other,15.2,60,76,5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/kevita-kombucha.jpg
+/caffeine-content/matcha-green-tea,Matcha Tea,other,8,0,64,8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/matcha-green-tea.jpg
+/caffeine-content/mati,MATI Energy Drink,other,12,90,110,9.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mati.jpg
+/caffeine-content/maxwell-house,Maxwell House Coffee,other,8,0,112,14,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/maxwell-house.jpg
+/caffeine-content/max-boost-maxwell-house,Maxwell House Max Boost Coffee,other,8,0,196,24.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/max-boost-maxwell-house.jpg
+/caffeine-content/mcdonalds-latte,McDonalds (McCafe) Latte,other,16,190,142,8.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mcdonalds-latte.jpg
+/caffeine-content/mcdonalds-mocha,McDonalds (McCafe) Mocha,other,16,380,167,10.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mcdonalds-mocha.jpg
+/caffeine-content/mcdonalds-large-coffee,McDonalds Coffee,other,16,0,145,9.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mcdonalds-large-coffee.jpg
+/caffeine-content/mcdonalds-iced-coffee,McDonalds Iced Coffee,other,11.5,190,133,11.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mcdonalds-iced-coffee.jpg
+/caffeine-content/mcdonalds-sweet-iced-tea,McDonalds Sweet Tea,other,32,160,100,3.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/mcdonalds-sweet-iced-tea.jpg
+/caffeine-content/mega-monster-energy-drink,Mega Monster Energy Drink,other,24,320,240,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mega-monster-energy-drink.jpg
+/caffeine-content/mello-yello,Mello Yello,other,12,170,51,4.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mello-yello.jpg
+/caffeine-content/vpx-meltdown-1-keto,Meltdown Ketone Drink,other,12,18,225,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/vpx-meltdown-1-keto.jpg
+/caffeine-content/mio-energy-water-enhancer,MiO Energy Water Enhancer,other,8,0,60,7.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/mio-energy-water-enhancer.jpg
+/caffeine-content/monster-assault-energy-drink,Monster Assault,Monster,16,210,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-assault-energy-drink.jpg
+/caffeine-content/monster-dragon-tea,Monster Dragon Tea,Monster,23,100,60,2.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-dragon-tea.jpg
+/caffeine-content/monster,Monster Energy,Monster,16,210,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster.jpg
+/caffeine-content/monster-hydro,Monster Hydro,Monster,25.4,150,188,7.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-hydro.jpg
+/caffeine-content/monster-import,Monster Import,Monster,18.6,190,179,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-import.jpg
+/caffeine-content/monster-lo-carb-uk,Monster Lo-Carb,Monster,16,30,140,8.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-lo-carb-uk.jpg
+/caffeine-content/monster-juiced-mango-loco,Monster Mango Loco,Monster,16,240,152,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-juiced-mango-loco.jpg
+/caffeine-content/monster-mule,Monster Mule,Monster,16,210,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-mule.jpg
+/caffeine-content/monster-nitro,Monster Nitro,Monster,16,220,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-nitro.jpg
+/caffeine-content/monster-pipeline,Monster Pipeline Punch,Monster,16,190,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-pipeline.jpg
+/caffeine-content/monster-rehab-energy-drink,Monster Rehab,Monster,15.5,25,160,10.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-rehab-energy-drink.jpg
+/caffeine-content/monster-reserve,Monster Reserve,Monster,16,120,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-reserve.jpg
+/caffeine-content/monster-ripper,Monster Ripper Energy Juice (UK),Monster,16.91,185,160,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-ripper.jpg
+/caffeine-content/monster-doctor,Monster The Doctor VR46 (UK),Monster,16.91,219,160,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-doctor.jpg
+/caffeine-content/monster-tour-water,Monster Tour Water,Monster,16,0,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/monster-tour-water.jpg
+/caffeine-content/monster-ultra-blue,Monster Ultra,Monster,16,10,150,9.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-ultra-blue.jpg
+/caffeine-content/monster-absolutely-zero-energy-drink,Monster Zero Sugar,Monster,16,10,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/monster-absolutely-zero-energy-drink.jpg
+/caffeine-content/moose-juice,Moose Juice Energy Drink,other,16.94,0,200,11.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/moose-juice.jpg
+/caffeine-content/morning-thunder,Morning Thunder Tea,other,8,0,45,5.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/morning-thunder.jpg
+/caffeine-content/mother-new,Mother Energy Drink,other,16.91,228,160,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mother-new.jpg
+/caffeine-content/mount-hagen-coffee,Mount Hagen Instant Coffee,other,8,0,70,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mount-hagen-coffee.jpg
+/caffeine-content/mountain-dew,Mountain Dew,Mountain Dew,12,170,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew.jpg
+/caffeine-content/amp-energy-drink,Mountain Dew Amp,Mountain Dew,16,220,142,8.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/amp-energy-drink.jpg
+/caffeine-content/baja-blast,Mountain Dew Baja Blast,Mountain Dew,12,170,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/baja-blast.jpg
+/caffeine-content/mountain-dew-code-red,Mountain Dew Code Red,Mountain Dew,12,170,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-code-red.jpg
+/caffeine-content/mtn-dew-energy,Mountain Dew Energy,Mountain Dew,16,25,180,11.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mtn-dew-energy.jpg
+/caffeine-content/mountain-dew-game-fuel,Mountain Dew Game Fuel,Mountain Dew,16,90,90,5.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-game-fuel.jpg
+/caffeine-content/mountain-dew-kick-start,Mountain Dew Kickstart,Mountain Dew,16,80,90,5.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-kick-start.jpg
+/caffeine-content/mountain-dew-live-wire,Mountain Dew Live Wire,Mountain Dew,12,180,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-live-wire.jpg
+/caffeine-content/mountain-dew-major-mellon,Mountain Dew Major Melon,Mountain Dew,12,160,55,4.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-major-mellon.jpg
+/caffeine-content/mountain-dew-spark,Mountain Dew Spark,Mountain Dew,12,170,46,3.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-spark.jpg
+/caffeine-content/mountain-dew-voltage,Mountain Dew Voltage,Mountain Dew,12,170,55,4.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-voltage.jpg
+/caffeine-content/mountain-dew-zero-sugar,Mountain Dew Zero Sugar,Mountain Dew,12,0,68,5.7,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew-zero-sugar.jpg
+/caffeine-content/moxie-soda,Moxie Soda,,12,140,24,2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/moxie-soda.jpg
+/caffeine-content/mucho-mango-arizona,Mucho Mango Energy Drink,,8,100,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mucho-mango-arizona.jpg
+/caffeine-content/mug-root-beer,Mug Root Beer,,12,160,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mug-root-beer.jpg
+/caffeine-content/muscle-milk-coffee,Muscle Milk Coffee House,,11,130,120,10.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/muscle-milk-coffee.jpg
+/caffeine-content/muscle-monster-energy-drink,Muscle Monster,,15,180,157,10.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/muscle-monster-energy-drink.jpg
+/caffeine-content/mushroom-coffee,Mushroom Coffee,,8,10,50,6.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/mushroom-coffee.jpg
+/caffeine-content/nerd-energy-drink,Nerd Focus,,12,170,128,10.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/nerd-energy-drink.jpg
+/caffeine-content/nestle-3-1,Nescafe 3 in 1 Instant Coffee,Nestlé,6,74,50,8.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nestle-3-1.jpg
+/caffeine-content/nescafe-dolce-gusto,Nescafe Dolce Gusto,Nestlé,8,0,106,13.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nescafe-dolce-gusto.jpg
+/caffeine-content/nescafe-gold-instant-coffee,Nescafe Gold,Nestlé,8.46,0,66,7.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nescafe-gold-instant-coffee.jpg
+/caffeine-content/nescafe-ice-java,Nescafe Ice Java,Nestlé,8,50,100,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nescafe-ice-java.jpg
+/caffeine-content/nescafe-ricoffy,Nescafe Ricoffy,Nestlé,8,10,6,0.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nescafe-ricoffy.jpg
+/caffeine-content/nespresso-coffee-capsules,Nespresso Coffee Capsules,Nestlé,1.35,0,60,44.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nespresso-coffee-capsules.jpg
+/caffeine-content/nestea-iced-tea,Nestea Iced Tea,Nestlé,16.9,160,23,1.4,Tea,https://www.caffeineinformer.com/wp-content/caffeine/nestea-iced-tea.jpg
+/caffeine-content/nestle-milo,Nestle Milo,Nestlé,8,80,4,0.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/nestle-milo.jpg
+/caffeine-content/neu-energy-shot,Neu Nootropic Shot,,2,0,350,175,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/neu-energy-shot.jpg
+/caffeine-content/neurosonic,Neuro Sonic,,14.5,35,100,6.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/neurosonic.jpg
+/caffeine-content/nocco,NOCCO Energy Drink (EU),,11.17,0,180,16.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/nocco.jpg
+/caffeine-content/noocaf,Noocaf Smart Coffee,,8,0,160,20,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/noocaf.jpg
+/caffeine-content/nos-energy-drink,NOS Energy Drink,,16,200,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/nos-energy-drink.jpg
+/caffeine-content/nutramint,Nutramint Smart Serum,,2,45,200,100,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/nutramint.jpg
+/caffeine-content/nuun-energy-tabs,Nuun Sport,,16,15,40,2.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/nuun-energy-tabs.jpg
+/caffeine-content/oca-plant-based-energy-drink,OCA Energy Drink,,12,60,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/oca-plant-based-energy-drink.jpg
+/caffeine-content/ocean-spray-brew,Ocean Spray Brew,,8,30,40,5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/ocean-spray-brew.jpg
+/caffeine-content/octane-energy-drink,Octane Energy Drink Mix,,12,25,225,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/octane-energy-drink.jpg
+/caffeine-content/oi-ocha-green-tea,Oi Ocha Green Tea,,16.9,5,60,3.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/oi-ocha-green-tea.jpg
+/caffeine-content/oikos-caffeinated-yogurt-drink,Oikos Pro Fuel,,10,130,100,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/oikos-caffeinated-yogurt-drink.jpg
+/caffeine-content/ok-energy-drink,OK Energy Drink,,8.45,113,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/ok-energy-drink.jpg
+/caffeine-content/oli-pop-vintage-cola,OLIPOP Vintage Cola,,12,35,50,4.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/oli-pop-vintage-cola.jpg
+/caffeine-content/orange-crush,Orange Crush,,12,160,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/orange-crush.jpg
+/caffeine-content/oregon-chai,Oregon Chai Tea,,6,130,45,7.5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/oregon-chai.jpg
+/caffeine-content/pacific-chai,Pacific Chai,,6,90,29,4.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/pacific-chai.jpg
+/caffeine-content/panera-bread-coffee,Panera Bread Coffee,,16,15,189,11.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/panera-bread-coffee.jpg
+/caffeine-content/charged-lemonade,Panera Charged Lemonade,,30,280,390,13,Soda,https://www.caffeineinformer.com/wp-content/caffeine/charged-lemonade.jpg
+/caffeine-content/presidents-choice-cola,PC Cola,,12,150,12,1,Soda,https://www.caffeineinformer.com/wp-content/caffeine/presidents-choice-cola.jpg
+/caffeine-content/diet-presidents-choice-cola,PC Cola Diet,,12,0,13,1.1,Soda,https://www.caffeineinformer.com/wp-content/caffeine/diet-presidents-choice-cola.jpg
+/caffeine-content/peace-tea,Peace Tea,,23,150,23,1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/peace-tea.jpg
+/caffeine-content/peets-brewed-coffee,Peet's Brewed Coffee,Peet's,16,5,267,16.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-brewed-coffee.jpg
+/caffeine-content/peets-americano,Peet's Caffe Americano,Peet's,16,10,140,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-americano.jpg
+/caffeine-content/peets-latte,Peet's Caffe Latte,Peet's,16,190,140,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-latte.jpg
+/caffeine-content/peets-mocha,Peet's Caffe Mocha,Peet's,16,390,165,10.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-mocha.jpg
+/caffeine-content/peets-cappuccino,Peet's Cappuccino,Peet's,16,140,140,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-cappuccino.jpg
+/caffeine-content/peets,Peet's Coffee Espresso,Peet's,1.5,0,70,46.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets.jpg
+/caffeine-content/peets-decaf,Peet's Decaf Espresso,Peet's,1.5,0,10,6.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-decaf.jpg
+/caffeine-content/peets-iced-coffee,Peet's Iced Coffee,Peet's,16,0,150,9.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-iced-coffee.jpg
+/caffeine-content/peets-iced-latte,Peet's Iced Latte,Peet's,16,120,140,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-iced-latte.jpg
+/caffeine-content/peets-iced-mocha,Peet's Iced Mocha,Peet's,16,310,165,10.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/peets-iced-mocha.jpg
+/caffeine-content/pep-talk-caffeinated-soda-water,Pep Talk Sparkling Water,,12,0,55,4.6,Water,https://www.caffeineinformer.com/wp-content/caffeine/pep-talk-caffeinated-soda-water.jpg
+/caffeine-content/pepsi-cola,Pepsi,Pepsi,12,150,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pepsi-cola.jpg
+/caffeine-content/pepsi-free,Pepsi Caffeine Free,Pepsi,12,150,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pepsi-free.jpg
+/caffeine-content/pepsi-throwback,Pepsi Made With Sugar,Pepsi,12,150,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pepsi-throwback.jpg
+/caffeine-content/uk-pepsi-max,Pepsi Max (UK),Pepsi,11.16,0,43,3.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/uk-pepsi-max.jpg
+/caffeine-content/pepsi-max,Pepsi Zero Sugar ,Pepsi,12,0,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pepsi-max.jpg
+/caffeine-content/performance-energy-shot,Performance Caffeine ,,2,0,180,90,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/performance-energy-shot.jpg
+/caffeine-content/endurelite-performelite,PerformElite Pre-Workout ,,8,0,225,28.1,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/endurelite-performelite.jpg
+/caffeine-content/perk-energy,Perk Energy Beverage,,8,90,100,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/perk-energy.jpg
+/caffeine-content/perrier-energize,Perrier Energize,,8.46,35,99,11.7,Water,https://www.caffeineinformer.com/wp-content/caffeine/perrier-energize.jpg
+/caffeine-content/perrier,Perrier Sparkling Water,,11.15,0,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/perrier.jpg
+/caffeine-content/pg-tips-tea,PG Tips Black Tea,,6.78,0,50,7.4,Tea,https://www.caffeineinformer.com/wp-content/caffeine/pg-tips-tea.jpg
+/caffeine-content/phocus-caffeinated-sparkling-water,Phocus Sparkling Water,,11.5,0,75,6.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/phocus-caffeinated-sparkling-water.jpg
+/caffeine-content/phoenix-energy-shot,Phoenix Energy Shot,,2,0,280,140,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/phoenix-energy-shot.jpg
+/caffeine-content/pibb-xtra,Pibb Xtra,,12,140,40,3.3,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pibb-xtra.jpg
+/caffeine-content/poland-spring-energy-water,Poland Spring Sparkling Energy Water,,11.5,35,75,6.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/poland-spring-energy-water.jpg
+/caffeine-content/polar-frost,Polar Frost Plus Energy,,17,10,67,3.9,Water,https://www.caffeineinformer.com/wp-content/caffeine/polar-frost.jpg
+/caffeine-content/polar-seltzer,Polar Seltzer Water,,12,0,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/polar-seltzer.jpg
+/caffeine-content/power-horse-energy-drink,Power Horse Energy Drink (EU),,8.45,125,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/power-horse-energy-drink.jpg
+/caffeine-content/premier-protein-latte,Premier Protein Cafe Latte,,11.5,160,120,10.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/premier-protein-latte.jpg
+/caffeine-content/premium-cola,Premium Cola (EU),,11.16,132,83,7.4,Soda,https://www.caffeineinformer.com/wp-content/caffeine/premium-cola.jpg
+/caffeine-content/prime-energy-drink,Prime Energy Drink,,12,10,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/prime-energy-drink.jpg
+/caffeine-content/private-selection-espresso-drinks,Private Selection Canned Espresso,,15,230,145,9.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/private-selection-espresso-drinks.jpg
+/caffeine-content/propel-zero,Propel Zero Powder,,16,0,0,0,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/propel-zero.jpg
+/caffeine-content/proper-wild-shot,Proper Wild Energy Shot,,2.5,25,180,72,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/proper-wild-shot.jpg
+/caffeine-content/protein2o-energy,Protein2O + Energy,,16.91,70,125,7.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/protein2o-energy.jpg
+/caffeine-content/pure-boost,Pure Boost Energy Drink Mix,,16,25,100,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/pure-boost.jpg
+/caffeine-content/pure-coffein,Pure Cofain 699 (EU),,8.46,148,175,20.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/pure-coffein.jpg
+/caffeine-content/pure-kick-energy-drink,Pure Kick Energy Drink Mix,,16.9,10,80,4.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/pure-kick-energy-drink.jpg
+/caffeine-content/pure-leaf-iced-tea,Pure Leaf Iced Tea,,18.5,160,69,3.7,Tea,https://www.caffeineinformer.com/wp-content/caffeine/pure-leaf-iced-tea.jpg
+/caffeine-content/purity-coffee,Purity Coffee,,8,0,163,20.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/purity-coffee.jpg
+/caffeine-content/quake-energy-slurpee,Quake Energy Berry Blast Slurpee,,16,5,92,5.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/quake-energy-slurpee.jpg
+/caffeine-content/quake-7-eleven,Quake Energy Drink,,16,0,250,15.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/quake-7-eleven.jpg
+/caffeine-content/rambler-energy-drink,Rambler Energy Drink,,16,60,120,7.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rambler-energy-drink.jpg
+/caffeine-content/raze-energy-drink,Raze Energy Drink,,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/raze-energy-drink.jpg
+/caffeine-content/royal-crown-cola,RC (Royal Crown) Cola,,12,160,43,3.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/royal-crown-cola.jpg
+/caffeine-content/red-bull,Red Bull,Red Bull,8.46,117,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-bull.jpg
+/caffeine-content/red-bull-editions,Red Bull Editions,Red Bull,8.46,113,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-bull-editions.jpg
+/caffeine-content/red-bull-cola,Red Bull Simply Cola,Red Bull,8.46,0,32,3.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/red-bull-cola.jpg
+/caffeine-content/sugar-free-red-bull,Red Bull Sugarfree,Red Bull,8.46,10,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/sugar-free-red-bull.jpg
+/caffeine-content/red-bull-total-zero,Red Bull Zero,Red Bull,8.46,0,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-bull-total-zero.jpg
+/caffeine-content/red-devil-energy-drink,Red Devil Energy Drink,,16,0,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-devil-energy-drink.jpg
+/caffeine-content/red-eye-energy-drink,Red Eye Energy Drink,,11.1,149,106,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-eye-energy-drink.jpg
+/caffeine-content/red-elixir,Red Power Elixir,,12,160,160,13.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/red-elixir.jpg
+/caffeine-content/aldi-red-thunder,Red Thunder Energy Drink,,12,156,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/aldi-red-thunder.jpg
+/caffeine-content/red-thunder-shot-aldi,Red Thunder Energy Shot,,2,0,138,69,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/red-thunder-shot-aldi.jpg
+/caffeine-content/red-thunder-shot-extra,Red Thunder Extra Strength,,2,0,230,115,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/red-thunder-shot-extra.jpg
+/caffeine-content/redline-power-rush,Redline Max 300,,2.5,0,300,120,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/redline-power-rush.jpg
+/caffeine-content/redline-princess,Redline Princess,,8,0,300,37.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/redline-princess.jpg
+/caffeine-content/redline-xtreme-drink,Redline Xtreme Energy Drink,,8,0,316,39.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/redline-xtreme-drink.jpg
+/caffeine-content/redline-xtreme-energy-shot,Redline Xtreme Shot,,3,5,300,100,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/redline-xtreme-energy-shot.jpg
+/caffeine-content/reeds-ginger-energy-shot,Reed's Ginger Energize Shot,,2,24,100,50,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/reeds-ginger-energy-shot.jpg
+/caffeine-content/reign-storm,Reign Storm,,12,10,200,16.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/reign-storm.jpg
+/caffeine-content/reign-energy-drink,Reign Total Body Fuel,,16,10,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/reign-energy-drink.jpg
+/caffeine-content/revv-coffee,Revv Coffee Pods,,8,0,127,15.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/revv-coffee.jpg
+/caffeine-content/rip-it-energy-drink,Rip It Energy Drink,,16,260,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rip-it-energy-drink.jpg
+/caffeine-content/rip-it-energy-shot,Rip It Energy Shot,,2,0,120,60,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/rip-it-energy-shot.jpg
+/caffeine-content/ritz-cola,Ritz Cola,,12,144,10,0.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ritz-cola.jpg
+/caffeine-content/roaring-lion-energy-drink,Roaring Lion Energy Drink,,8,100,77,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/roaring-lion-energy-drink.jpg
+/caffeine-content/robusta-coffee,Robusta Coffee,,8,0,265,33.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/robusta-coffee.jpg
+/caffeine-content/rockstar-boom-energy-drink,Rockstar Boom,,16,280,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-boom-energy-drink.jpg
+/caffeine-content/rockstar,Rockstar Energy Drink (Original),,16,250,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar.jpg
+/caffeine-content/rockstar-halo-infinite-energy-drink,Rockstar Halo Infinite,,16,250,240,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-halo-infinite-energy-drink.jpg
+/caffeine-content/rockstar-juiced,Rockstar Juiced,,16,30,170,10.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-juiced.jpg
+/caffeine-content/rockstar-organic,Rockstar Organic Energy Drink,,15,180,160,10.7,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-organic.jpg
+/caffeine-content/rockstar-citrus-punched,Rockstar Punched,,16,260,240,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-citrus-punched.jpg
+/caffeine-content/rockstar-pure-zero,Rockstar Pure Zero,,16,20,240,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-pure-zero.jpg
+/caffeine-content/rockstar-recovery-energy-hydration,Rockstar Recovery,,16,25,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-recovery-energy-hydration.jpg
+/caffeine-content/rockstar-sugar-free,Rockstar Sugar Free,,16,25,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-sugar-free.jpg
+/caffeine-content/rockstar-thermo-energy-drink,Rockstar Thermo ,,16,0,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-thermo-energy-drink.jpg
+/caffeine-content/rockstar-unplugged,Rockstar Unplugged,,8,0,80,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-unplugged.jpg
+/caffeine-content/rockstar-xdurance-energy-drink,Rockstar XDurance,,16,10,300,18.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-xdurance-energy-drink.jpg
+/caffeine-content/rockstar-zero-carb,Rockstar Zero Carb,,16,25,240,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rockstar-zero-carb.jpg
+/caffeine-content/rogue-energy-drink,Rogue Energy Drink,,16,5,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rogue-energy-drink.jpg
+/caffeine-content/rogue-energy-drink-mix,Rogue Energy Drink Mix,,16,5,175,10.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rogue-energy-drink-mix.jpg
+/caffeine-content/rootjack-caffeinated-pirate-root-beer,RootJack Caffeinated Pirate Root Beer,,12,200,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rootjack-caffeinated-pirate-root-beer.jpg
+/caffeine-content/rowdy-energy-drink,Rowdy Energy Drink,,16,5,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rowdy-energy-drink.jpg
+/caffeine-content/ruby-red-squirt,Ruby Red Squirt,,12,170,39,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ruby-red-squirt.jpg
+/caffeine-content/runa-clean-energy-drink,Runa,,12,0,150,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/runa-clean-energy-drink.jpg
+/caffeine-content/rush-energy,Rush! Energy Drink,,8.3,120,80,9.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rush-energy.jpg
+/caffeine-content/ryse-fuel,Ryse Fuel,,16,0,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/ryse-fuel.jpg
+/caffeine-content/amazon-energy-drink,Sambazon Amazon Energy Drink,,12,120,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/amazon-energy-drink.jpg
+/caffeine-content/sarsaparilla,Sarsaparilla,,12,170,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/sarsaparilla.jpg
+/caffeine-content/scheckters-organic-energy-energy,Scheckters Energy Drink,,8.46,78,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/scheckters-organic-energy-energy.jpg
+/caffeine-content/screamin-energy-shot,Screamin Energy Max Hit,,0.61,40,185,303.3,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/screamin-energy-shot.jpg
+/caffeine-content/seattles-best-coffee,Seattle's Best Brewed Coffee,,12,10,260,21.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/seattles-best-coffee.jpg
+/caffeine-content/sencha-shot,Sencha Green Tea Shot,,6.4,0,40,6.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/sencha-shot.jpg
+/caffeine-content/shasta-cola,Shasta Cola,,12,170,43,3.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/shasta-cola.jpg
+/caffeine-content/shasta-diet-cola,Shasta Diet Cola,,12,0,47,3.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/shasta-diet-cola.jpg
+/caffeine-content/mountain-rush-shasta,Shasta Mountain Rush,,12,150,54,4.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/mountain-rush-shasta.jpg
+/caffeine-content/ski-soda,Ski Soda,,12,180,69,5.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/ski-soda.jpg
+/caffeine-content/slammers-energy-drink,Slammers Energy Drink (EU),,8.46,122,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/slammers-energy-drink.jpg
+/caffeine-content/slim-fast-cappuccino,SlimFast Shake - Cappuccino,,11,180,100,9.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/slim-fast-cappuccino.jpg
+/caffeine-content/slurpee-frozen-drinks,Slurpee,,12,90,30,2.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/slurpee-frozen-drinks.jpg
+/caffeine-content/snapple-tea,Snapple Tea,,16,150,37,2.3,Tea,https://www.caffeineinformer.com/wp-content/caffeine/snapple-tea.jpg
+/caffeine-content/sneak-mix,Sneak Energy Drink Mix,,16,12,150,9.4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/sneak-mix.jpg
+/caffeine-content/sobe-energy-citrus,SoBe Energy Citrus,,20,250,81,4,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/sobe-energy-citrus.jpg
+/caffeine-content/sobe-green-tea,SoBe Green Tea,,20,200,7,0.3,Tea,https://www.caffeineinformer.com/wp-content/caffeine/sobe-green-tea.jpg
+/caffeine-content/soda-stream,Soda Stream,,8,40,31,3.9,Soda,https://www.caffeineinformer.com/wp-content/caffeine/soda-stream.jpg
+/caffeine-content/solimo-energy-drink,Solimo Energy Drink,,16,10,152,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/solimo-energy-drink.jpg
+/caffeine-content/source-energy-drink,Source 1899 (UK),,8.46,58,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/source-energy-drink.jpg
+/caffeine-content/sweet-tea,Southern Sweet Tea,,16,128,41,2.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/sweet-tea.jpg
+/caffeine-content/soylent,Soylent Stacked,,11.16,180,100,9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/soylent.jpg
+/caffeine-content/advocare-spark,Spark Energy Drink Mix,,8,15,120,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/advocare-spark.jpg
+/caffeine-content/sparkling-ice-caffeine,Sparkling Ice +Caffeine,,16,5,70,4.4,Water,https://www.caffeineinformer.com/wp-content/caffeine/sparkling-ice-caffeine.jpg
+/caffeine-content/speed-fuel-energy-drink-robby-gordon,Speed Energy Fuel,,16,240,186,11.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/speed-fuel-energy-drink-robby-gordon.jpg
+/caffeine-content/spider-energy-drink,Spider Energy Drink,,16,120,240,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/spider-energy-drink.jpg
+/caffeine-content/spike-double-shot,Spike Energy Double Shot,,4.26,0,350,82.2,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/spike-double-shot.jpg
+/caffeine-content/spike-shotgun,Spike Hardcore Energy,,16,0,350,21.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/spike-shotgun.jpg
+/caffeine-content/spike-shooter,Spike Shooter,,12,10,300,25,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/spike-shooter.jpg
+/caffeine-content/sprecher-cherry-cola,Sprecher Cherry Cola,,16,240,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/sprecher-cherry-cola.jpg
+/caffeine-content/sprite,Sprite,,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/sprite.jpg
+/caffeine-content/squirt,Squirt Soda,,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/squirt.jpg
+/caffeine-content/stacker-extreme-shot,Stacker Extreme Energy Shot,,2,0,205,102.5,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/stacker-extreme-shot.jpg
+/caffeine-content/starbucks-plus,Starbucks 2X Coffee Pods,,8,0,260,32.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-plus.jpg
+/caffeine-content/starbucks-bottled-cold-brew,Starbucks Bottled Cold Brew,,11,50,180,16.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-bottled-cold-brew.jpg
+/caffeine-content/starbucks-bottled-iced-coffee,Starbucks Bottled Iced Coffee,,48,240,640,13.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-bottled-iced-coffee.jpg
+/caffeine-content/starbucks-canned-nitro,Starbucks Canned Nitro Cold Brew,,11,0,235,21.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-canned-nitro.jpg
+/caffeine-content/starbucks-grande-latte-macchiato,Starbucks Caramel Macchiato,,16,250,150,9.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-latte-macchiato.jpg
+/caffeine-content/starbucks-cold-crafted,Starbucks Cold & Crafted,,11,50,135,12.3,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-cold-crafted.jpg
+/caffeine-content/starbucks-cold-brew,Starbucks Cold Brew Coffee,,16,5,205,12.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-cold-brew.jpg
+/caffeine-content/starbucks-cordusio,Starbucks Cordusio Mocha,,8,130,155,19.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-cordusio.jpg
+/caffeine-content/starbucks-tall-decaf-coffee,Starbucks Decaf Coffee,,16,0,25,1.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-tall-decaf-coffee.jpg
+/caffeine-content/starbucks-double,Starbucks Doubleshot Energy,,15,220,135,9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-double.jpg
+/caffeine-content/starbucks-double-shot,Starbucks Doubleshot Espresso,,6.5,140,120,18.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-double-shot.jpg
+/caffeine-content/starbucks-bottled-frappucino,Starbucks Frappuccino (Bottled),,13.7,300,110,8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-bottled-frappucino.jpg
+/caffeine-content/starbucks-grande-caffe-americano,Starbucks Grande Caffe Americano,,16,15,225,14.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-caffe-americano.jpg
+/caffeine-content/starbucks-grande-caffe-latte,Starbucks Grande Caffe Latte,,16,190,150,9.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-caffe-latte.jpg
+/caffeine-content/starbucks-grande-caffe-mocha,Starbucks Grande Caffe Mocha,,16,370,175,10.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-caffe-mocha.jpg
+/caffeine-content/starbucks-grande-cappuccino,Starbucks Grande Cappuccino,,16,140,150,9.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-cappuccino.jpg
+/caffeine-content/starbucks-grande-coffee,Starbucks Grande Coffee,,16,5,310,19.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-grande-coffee.jpg
+/caffeine-content/starbucks-iced-espresso,Starbucks Iced Americano,,16,15,225,14.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-iced-espresso.jpg
+/caffeine-content/starbucks-bottled-espresso-classics,Starbucks Iced Espresso Classics,,12,190,125,10.4,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-bottled-espresso-classics.jpg
+/caffeine-content/starbucks-nitro-cold-brew,Starbucks Nitro Cold Brew Coffee,,16,5,280,17.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-nitro-cold-brew.jpg
+/caffeine-content/pink-drink-starbucks,Starbucks Pink Drink,,16,140,45,2.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/pink-drink-starbucks.jpg
+/caffeine-content/starbucks-pumpkin-cream,Starbucks Pumpkin Cream Cold Brew,,16,250,185,11.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-pumpkin-cream.jpg
+/caffeine-content/starbucks-refreshers,Starbucks Refreshers,,16,70,45,2.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-refreshers.jpg
+/caffeine-content/starbucks-refreshers-canned,Starbucks Refreshers Canned,,12,90,50,4.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-refreshers-canned.jpg
+/caffeine-content/starbucks-triple-shot,Starbucks Triple Shot Energy,,15,210,225,15,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-triple-shot.jpg
+/caffeine-content/starbucks-verismo-pods,Starbucks Verismo Coffee Pods,,8,0,60,7.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-verismo-pods.jpg
+/caffeine-content/starbucks-via-instant-coffee,Starbucks Via Ready Brew,,8,0,135,16.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/starbucks-via-instant-coffee.jpg
+/caffeine-content/steaz-organic-energy-drink-berry,Steaz Energy,,12,140,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/steaz-organic-energy-drink-berry.jpg
+/caffeine-content/steep-18,Steep 18 Cold Brew,,8,0,90,11.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/steep-18.jpg
+/caffeine-content/sting,Sting Energy Drink,,8.455,70,72,8.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/sting.jpg
+/caffeine-content/fire-department-coffee,Stipe Miocic Extra Strength Coffee,,12,0,500,41.7,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/fire-department-coffee.jpg
+/caffeine-content/stok-coffee-shots,Stok Coffee Shots,,0.43,10,40,93,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/stok-coffee-shots.jpg
+/caffeine-content/stok-cold-brew-coffee,Stok Cold Brew,,13.7,0,145,10.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/stok-cold-brew-coffee.jpg
+/caffeine-content/strike-force,Strike Force Energy Drink Mix,,16.91,0,160,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/strike-force.jpg
+/caffeine-content/stumptown-coffee-cold-brew,Stumptown Cold Brew Coffee,,10.5,3,279,26.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/stumptown-coffee-cold-brew.jpg
+/caffeine-content/stumptown-nitro,Stumptown Nitro Cold Brew,,11,3,330,30,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/stumptown-nitro.jpg
+/caffeine-content/sudden-coffee,Sudden Instant Coffee,,12,0,95,7.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/sudden-coffee.jpg
+/caffeine-content/sundrop,Sun Drop Soda,,12,170,64,5.3,Soda,https://www.caffeineinformer.com/wp-content/caffeine/sundrop.jpg
+/caffeine-content/sunkist-orange-soda,Sunkist Orange Soda,,12,160,19,1.6,Soda,https://www.caffeineinformer.com/wp-content/caffeine/sunkist-orange-soda.jpg
+/caffeine-content/sunup,Sunup Pure Green Coffee,,11,5,200,18.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/sunup.jpg
+/caffeine-content/t-virus-energy-drink,T-Virus Antidote,,12,160,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/t-virus-energy-drink.jpg
+/caffeine-content/taft-coffee,Taft Coffee (EU),,12,0,1182,98.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/taft-coffee.jpg
+/caffeine-content/taiwanese-milk-tea,Taiwanese Milk Tea,,16,299,151,9.4,Tea,https://www.caffeineinformer.com/wp-content/caffeine/taiwanese-milk-tea.jpg
+/caffeine-content/tasters-choice,Taster's Choice Instant Coffee,,8,0,49,6.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/tasters-choice.jpg
+/caffeine-content/taurus-energy-drink,Taurus Energy Drink,,8.46,180,50,5.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/taurus-energy-drink.jpg
+/caffeine-content/tazo-chai,Tazo Chai,,8,0,47,5.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/tazo-chai.jpg
+/caffeine-content/tea-brewed,Tea (Black),,8,0,42,5.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/tea-brewed.jpg
+/caffeine-content/decaffeinated-tea,Tea (Decaf),,8,0,4,0.5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/decaffeinated-tea.jpg
+/caffeine-content/green-tea,Tea (Green),,8,0,18,2.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/green-tea.jpg
+/caffeine-content/herbal-tea,Tea (Herbal),,8,0,0,0,Tea,https://www.caffeineinformer.com/wp-content/caffeine/herbal-tea.jpg
+/caffeine-content/tea-iced,Tea (Iced),,8,0,47,5.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/tea-iced.jpg
+/caffeine-content/tea-instant,Tea (Instant),,8,0,40,5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/tea-instant.jpg
+/caffeine-content/jasmine-tea,Tea (Jasmine),,8,0,25,3.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/jasmine-tea.jpg
+/caffeine-content/oolong-tea,Tea (Oolong),,8,0,37,4.6,Tea,https://www.caffeineinformer.com/wp-content/caffeine/oolong-tea.jpg
+/caffeine-content/white-tea,Tea (White),,8,0,28,3.5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/white-tea.jpg
+/caffeine-content/teas-tea-oolong,Teas' Tea Oolong,,16.9,0,70,4.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/teas-tea-oolong.jpg
+/caffeine-content/teavana,Teavana Tea,,8,0,41,5.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/teavana.jpg
+/caffeine-content/tejava-iced-tea,Tejava Iced Tea,,12,0,50,4.2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/tejava-iced-tea.jpg
+/caffeine-content/tenzing,TENZING Natural Energy,,8.46,50,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/tenzing.jpg
+/caffeine-content/tiger-energy-drink,Tiger Energy Drink,,8.46,0,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/tiger-energy-drink.jpg
+/caffeine-content/tim-hortons-large-coffee,Tim Hortons Large Brewed Coffee,,20,5,270,13.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/tim-hortons-large-coffee.jpg
+/caffeine-content/tim-hortons-small-french-vanilla-coffee,Tim Hortons Small French Vanilla Coffee,,10,0,60,6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/tim-hortons-small-french-vanilla-coffee.jpg
+/caffeine-content/tonic-water,Tonic Water,,10,110,0,0,Water,https://www.caffeineinformer.com/wp-content/caffeine/tonic-water.jpg
+/caffeine-content/triton-energy-drink-7-eleven,Triton Energy Drink,,16,15,200,12.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/triton-energy-drink-7-eleven.jpg
+/caffeine-content/tropicana-twister,Tropicana Twister Soda,,20,320,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/tropicana-twister.jpg
+/caffeine-content/truenergy,Tru Energy Wakeup,,12,10,100,8.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/truenergy.jpg
+/caffeine-content/tru-brain,TruBrain Extra,,1,25,100,100,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/tru-brain.jpg
+/caffeine-content/true-lemon,True Lemon Energy Mix,,16,0,120,7.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/true-lemon.jpg
+/caffeine-content/truestart-coffee,TrueStart Performance Coffee,,5.1,0,95,18.6,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/truestart-coffee.jpg
+/caffeine-content/turkey-hill-iced-tea,Turkey Hill Iced Tea,,12,120,64,5.3,Tea,https://www.caffeineinformer.com/wp-content/caffeine/turkey-hill-iced-tea.jpg
+/caffeine-content/turkish-coffee,Turkish Coffee,,2,20,50,25,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/turkish-coffee.jpg
+/caffeine-content/tweaker-energy-drink,Tweaker Energy Drink,,8.46,110,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/tweaker-energy-drink.jpg
+/caffeine-content/tweaker-shot,Tweaker Shot,,2,0,275,137.5,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/tweaker-shot.jpg
+/caffeine-content/twig-tea-kukicha,Twig Tea (Kukicha),,8,0,25,3.1,Tea,https://www.caffeineinformer.com/wp-content/caffeine/twig-tea-kukicha.jpg
+/caffeine-content/ugly-energy-water,Ugly Energy Water,,16,0,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/ugly-energy-water.jpg
+/caffeine-content/up-time-energy-drink,UPTIME Energy Drink,,12,150,142,11.8,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/up-time-energy-drink.jpg
+/caffeine-content/rev3-energy-drink,USANA Rev3 Energy Drink,,12,105,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/rev3-energy-drink.jpg
+/caffeine-content/v-double-espresso,V Iced Coffee,,16.91,345,155,9.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/v-double-espresso.jpg
+/caffeine-content/v,V Energy Drink,,8.45,116,78,9.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/v.jpg
+/caffeine-content/v8-fusion-energy-drink,V8 +Energy Drink,,8,140,80,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/v8-fusion-energy-drink.jpg
+/caffeine-content/venom-death-adder,Venom Death Adder,,16,160,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/venom-death-adder.jpg
+/caffeine-content/vernors-ginger-ale,Vernors Ginger Ale,,12,140,0,0,Soda,https://www.caffeineinformer.com/wp-content/caffeine/vernors-ginger-ale.jpg
+/caffeine-content/very-strong-coffee,Very Strong Coffee,,12,0,1350,112.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/very-strong-coffee.jpg
+/caffeine-content/virtue-energy,Virtue Clean Energy Beverage,,8.46,8,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/virtue-energy.jpg
+/caffeine-content/viso-energy-drink,Viso Energy Drink,,17,140,300,17.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/viso-energy-drink.jpg
+/caffeine-content/vital-4u-energy-shot,Vital 4U Liquid Energy,,0.5,34,155,310,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/vital-4u-energy-shot.jpg
+/caffeine-content/glaceau-vitaminwater,VitaminWater Energy ,,20,100,50,2.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/glaceau-vitaminwater.jpg
+/caffeine-content/vitarain-energy-enhanced-water,VitaRain Zero Enhanced Water,,20,0,42,2.1,Water,https://www.caffeineinformer.com/wp-content/caffeine/vitarain-energy-enhanced-water.jpg
+/caffeine-content/voila,Voila Instant Coffee,,8,0,100,12.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/voila.jpg
+/caffeine-content/vuum,Vuum,,12,50,135,11.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/vuum.jpg
+/caffeine-content/waka-decaf,Waka Decaf Instant Coffee,,8,0,4,0.5,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/waka-decaf.jpg
+/caffeine-content/waka-indian-coffee,Waka Indian Instant Coffee,,8,0,70,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/waka-indian-coffee.jpg
+/caffeine-content/waka-coffee,Waka Instant Coffee,,8,0,70,8.8,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/waka-coffee.jpg
+/caffeine-content/waka-tea,Waka Instant Tea,,8,0,30,3.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/waka-tea.jpg
+/caffeine-content/water-joe-caffeine-water,Water Joe,,20,0,70,3.5,Water,https://www.caffeineinformer.com/wp-content/caffeine/water-joe-caffeine-water.jpg
+/caffeine-content/wave-soda,Wave Soda,,12,25,42,3.5,Soda,https://www.caffeineinformer.com/wp-content/caffeine/wave-soda.jpg
+/caffeine-content/wawa-coffee,Wawa Coffee,,16,4,290,18.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/wawa-coffee.jpg
+/caffeine-content/wendys-iced-tea,Wendy's Iced Tea,,16,5,32,2,Tea,https://www.caffeineinformer.com/wp-content/caffeine/wendys-iced-tea.jpg
+/caffeine-content/dalgona-coffee,Whipped (Dalgona) Coffee,,8,48,105,13.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/dalgona-coffee.jpg
+/caffeine-content/awake-coffee-cold-brew,Wide Awake Coffee Cold Brew,,11,5,120,10.9,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/awake-coffee-cold-brew.jpg
+/caffeine-content/wide-awake-coffee-energy-drink,Wide Awake Energy Coffee,,15,190,180,12,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/wide-awake-coffee-energy-drink.jpg
+/caffeine-content/wide-awake-iced-coffee,Wide Awake Iced Coffee Drinks,,13.7,290,30,2.2,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/wide-awake-iced-coffee.jpg
+/caffeine-content/pepsi-wild-cherry,Wild Cherry Pepsi,,12,160,38,3.2,Soda,https://www.caffeineinformer.com/wp-content/caffeine/pepsi-wild-cherry.jpg
+/caffeine-content/wild-tiger-energy-drink,Wild Tiger Energy Drink,,8.36,125,75,9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/wild-tiger-energy-drink.jpg
+/caffeine-content/wildcat-energy-drink,Wildcat Energy Drink (UK),,8.46,115,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/wildcat-energy-drink.jpg
+/caffeine-content/wired-x-3000-energy-drink,Wired X 3000 Energy Drink,,16,220,185,11.6,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/wired-x-3000-energy-drink.jpg
+/caffeine-content/wired-x-berry-rush-energy-drink,Wired X Berry Rush,,16,220,95,5.9,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/wired-x-berry-rush-energy-drink.jpg
+/caffeine-content/wired-x344-energy-drink,Wired X344 Energy Drink,,16,220,344,21.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/wired-x344-energy-drink.jpg
+/caffeine-content/woke-up-energy-shot,Woke Up Energy Shot,,1.93,0,225,116.6,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/woke-up-energy-shot.jpg
+/caffeine-content/x-ray-energy-drink,X Ray Energy Drink,,8.46,125,79,9.3,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/x-ray-energy-drink.jpg
+/caffeine-content/x-mode-shot,X-Mode Energy Shot,,1,0,150,150,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/x-mode-shot.jpg
+/caffeine-content/xing-craft-brew-tea,Xing Craft Brew,,16,5,120,7.5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/xing-craft-brew-tea.jpg
+/caffeine-content/xingtea-flavored-tea,Xingtea Iced Green Tea,,23.5,50,110,4.7,Tea,https://www.caffeineinformer.com/wp-content/caffeine/xingtea-flavored-tea.jpg
+/caffeine-content/xl-energy-drink,XL Energy Drink (EU),,8.45,118,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/xl-energy-drink.jpg
+/caffeine-content/xs-energy-drink,XS Energy Drink,,8.4,10,80,9.5,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/xs-energy-drink.jpg
+/caffeine-content/xenergy-energy-drink,Xyience Energy Drink,,16,15,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/xenergy-energy-drink.jpg
+/caffeine-content/yellow-tea,Yellow Tea,,8,0,63,7.9,Tea,https://www.caffeineinformer.com/wp-content/caffeine/yellow-tea.jpg
+/caffeine-content/yerba-mate,Yerba Mate Tea,,8,0,40,5,Tea,https://www.caffeineinformer.com/wp-content/caffeine/yerba-mate.jpg
+/caffeine-content/yerbae,Yerbae Sparkling Water,,12,0,100,8.3,Water,https://www.caffeineinformer.com/wp-content/caffeine/yerbae.jpg
+/caffeine-content/ymateina-yerba-mate,YMateina Yerba Mate,,8,0,80,10,Tea,https://www.caffeineinformer.com/wp-content/caffeine/ymateina-yerba-mate.jpg
+/caffeine-content/zest-tea,Zest Highly Caffeinated Tea,,8,0,150,18.8,Tea,https://www.caffeineinformer.com/wp-content/caffeine/zest-tea.jpg
+/caffeine-content/zest-sparkling-tea,Zest Sparkling Tea,,12,60,135,11.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/zest-sparkling-tea.jpg
+/caffeine-content/zevia-cola,Zevia Cola,,12,0,45,3.8,Soda,https://www.caffeineinformer.com/wp-content/caffeine/zevia-cola.jpg
+/caffeine-content/zevia-energy,Zevia Energy Drink,,12,0,120,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/zevia-energy.jpg
+/caffeine-content/zipfizz-energy-drink-mix,ZipFizz Energy Drink Mix,,16,20,100,6.2,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/zipfizz-energy-drink-mix.jpg
+/caffeine-content/zoa-energy-drink,Zoa Energy Drink,,16,100,160,10,Energy Drink,https://www.caffeineinformer.com/wp-content/caffeine/zoa-energy-drink.jpg
+/caffeine-content/zola-coconut-water-espresso,Zola Coconut Water Espresso,,17.5,0,125,7.1,Coffee,https://www.caffeineinformer.com/wp-content/caffeine/zola-coconut-water-espresso.jpg
+/caffeine-content/zombie-blood-energy-potion,Zombie Blood Energy Potion,,3.4,25,80,23.5,Energy Shot,https://www.caffeineinformer.com/wp-content/caffeine/zombie-blood-energy-potion.jpg
