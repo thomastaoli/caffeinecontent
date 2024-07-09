@@ -16,7 +16,7 @@ function displayVendingDrinks(vendingData) {
         .data(vendingData)
         .enter()
         .append('img')
-        .attr('src', d => d.pic_link)  // Use pic_link directly
+        .attr('src', d => d.pic_link)
         .attr('width', 40)
         .attr('height', 80)
         .attr('x', (d, i) => (i % 5) * 50 + 10) // 5 columns
