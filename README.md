@@ -10,28 +10,24 @@ Major beverage manufacturers and chain cafes often fail to label caffeinated bev
 
 ## Data Sources
 
-- **Nutrition Facts:** Collected from major cafes and fast-food restaurants.
-- **Public Health Records:** Data on caffeine-related health incidents.
-- **Regulatory Documents:** FDA regulations and international caffeine labeling standards.
+- **Nutrition Facts:** Scraped from a food safety watchdog database, which include nutrition facts of more than 600 beverages.
+- **Regulatory Documents:** FDA regulations on caffeine labeling standards.
 - **Legal Cases:** Lawsuits related to caffeine overdose, such as Katz v. Panera Bread.
 
-## Data Cleaning and Organization
+## Data Cleaning, Organization and Visualization
 
 The collected data was cleaned and standardized to ensure consistency and accuracy. This process involved:
-- Standardizing caffeine content information for comparison.
+- Standardizing caffeine content information for comparison. The standardized information provided a more straightforward way for readers to understand caffeine content in drinks.
 - Verifying data accuracy through multiple sources.
 - Handling missing data and inconsistencies.
 
-## Code and Functionality
-
-### Highlighted Functionality
-One of the critical components of this project is the web scraper developed to automate the collection of caffeine content data from various online sources. The scraper handles dynamic content loading and extracts relevant information efficiently.
 ## Methodology
 
 ### Development of the Story
 - **Initial Research:** Identified the issue through news articles and public health reports.
-- **Data Collection:** Gathered data from manufacturers and regulatory bodies.
+- **Data Collection:** Gathered data from watchdogs and regulatory bodies.
 - **Analysis:** Evaluated the prevalence of unlabelled caffeinated drinks and their health risks.
+- **Visualization:** Develope interactive elements for readers to learn the potential risk of high caffeine intake.
 
 ### Challenges Faced
 - **Data Availability:** Obtaining complete and accurate data was challenging as not all manufacturers disclose caffeine content.
