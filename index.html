@@ -287,6 +287,67 @@
       text-align: center;
       height: 100%;
     }
+
+    .viz-section {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .viz-section select,
+    .viz-section button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+    .drink-list-container {
+      max-height: 300px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .viz-section ul {
+      list-style-type: none;
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .viz-section li {
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 0 21%; /* Adjusts to 4 images per row */
+    }
+
+    .viz-section img {
+      height: 100px; /* Adjust size as needed */
+      cursor: pointer;
+    }
+
+    .selected-drinks img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .selected-drinks li {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   </style>
 </head>
 
@@ -450,43 +511,30 @@
     - The Heritage -
   </h2>
 
-  <div class="vending-machine-wrapper">
-    <h3 class="vending-machine-headline">The Caffeine Vending Machine</h3>
-    <div class="vending-machine">
-      <svg id="vending-machine" width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
-        <!-- Vending machine frame -->
-        <rect x="10" y="10" width="380" height="580" fill="#cccccc" stroke="#000000" stroke-width="5" />
-        <!-- Drinks display area -->
-        <rect id="vending-drinks-area" x="30" y="30" width="240" height="540" fill="none" stroke="#000000" stroke-width="2" />
-        <!-- Filters -->
-        <text x="300" y="50" font-family="Arial" font-size="20">Filters</text>
-        <text x="300" y="80" font-family="Arial" font-size="14">Type</text>
-        <foreignObject x="300" y="90" width="80" height="30">
-          <select id="vending-filter-type">
-            <option value="">Select Type</option>
-          </select>
-        </foreignObject>
-        <text x="300" y="140" font-family="Arial" font-size="14">Brand</text>
-        <foreignObject x="300" y="150" width="80" height="30">
-          <select id="vending-filter-brand">
-            <option value="">Select Brand</option>
-          </select>
-        </foreignObject>
-        <!-- Selected Drinks -->
-        <text x="300" y="200" font-family="Arial" font-size="20">Selected</text>
-        <foreignObject x="300" y="220" width="80" height="120">
-          <div class="vending-selected-drinks"></div>
-        </foreignObject>
-        <!-- Checkout -->
-        <foreignObject x="300" y="360" width="80" height="50">
-          <button id="vending-checkout">Check Out</button>
-        </foreignObject>
-        <text x="300" y="430" font-family="Arial" font-size="14">Your Total Caffeine is: <span id="vending-total-caffeine">0</span> mg</text>
-        <!-- Clear Selection -->
-        <foreignObject x="300" y="450" width="80" height="50">
-          <button id="vending-clear-selection">Clear Selection</button>
-        </foreignObject>
-      </svg>
+  <div class="viz-section">
+    <h3>Select Drinks</h3>
+    <div>
+      <label for="brand-select">Brand:</label>
+      <select id="brand-select">
+        <option value="">All Brands</option>
+      </select>
+
+      <label for="type-select">Type:</label>
+      <select id="type-select">
+        <option value="">All Types</option>
+      </select>
+    </div>
+    <div class="drink-list-container">
+      <ul id="drink-list"></ul>
+    </div>
+    <h3>Selected Drinks</h3>
+    <div>
+      <ul id="selected-drinks" class="selected-drinks"></ul>
+    </div>
+    <button id="clear-selection">Clear Selection</button>
+    <button id="calculate-caffeine">Calculate Total Caffeine</button>
+    <div>
+      <p>Total Caffeine: <span id="total-caffeine">0</span> mg</p>
     </div>
   </div>
 
