@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Over-caffeinated and Overlooked</title>
-  <link rel="icon" href="23logo.png" />
+  <link rel="icon" href="logo.png" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="" />
   <meta property="og:url" content="https://github.com/thomastaoli/article-23/" />
@@ -36,7 +36,7 @@
       font-family: "Nunito", sans-serif;
       /* Nunito as a fallback for Avenir */
       text-rendering: optimizeLegibility;
-      background: #e1e1e1;
+      background: #F3F3F3;
       color: #9b9b9b;
     }
 
@@ -329,11 +329,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      flex: 1 0 21%; /* Adjusts to 4 images per row */
+      flex: 1 0 21%;
+      /* Adjusts to 4 images per row */
     }
 
     .viz-section img {
-      height: 100px; /* Adjust size as needed */
+      height: 100px;
+      /* Adjust size as needed */
       cursor: pointer;
     }
 
@@ -433,8 +435,7 @@
 
   <div class="content">
     <p>
-      Dr. Jon Kole, who published a <a
-        href="https://www.amnesty.org/en/latest/news/2024/03/what-is-hong-kongs-article-23-law-10-things-you-need-to-know/">study</a>
+      Dr. Jon Kole, who published a <a href="https://pubmed.ncbi.nlm.nih.gov/24761278/">study</a>
       calling for comprehensive labeling, emphasizing the dangers of high caffeine
       intake: “This can lead to increased blood pressure and heart rate, or even cardiac arrest, which can be more
       dangerous for some vulnerable groups, such as pregnant women and adolescents.”
@@ -450,69 +451,42 @@
       caffeine-infused snacks, and even some medications that people might not realize contain caffeine.”
     </p>
     <p>
-      Moreover, under the new law, the Chief Executive has the absolute
-      authority to certify whether any material involves state secrets. So
-      again - pretty much anything could be considered a “state secret”.
+      Kole did the research for a reason. As a pediatrician, he had witnessed cases in which children were sent to ER
+      with a racing heart from energy drinks. While there’s no way to confirm the exact number of every year, how many
+      people in the US suffer from the health risks or even die because of overdosing caffeine, a <a
+        href="https://www.heartrhythmjournal.com/article/S1547-5271(24)00189-9/fulltext">recent study</a> conducted
+      by the Mayo Clinic shows some alarming findings. The research, which delved into over 5,000 patient records,
+      identified a concerning pattern where 5% of sudden cardiac arrest survivors had consumed energy drinks shortly
+      before their cardiac events.
+    </p>
+    <p>
+      Notably, the study highlighted cases where individuals with predispositions to heart issues such as Long QT
+      Syndrome - which possibly took Katz’s life - experienced life-threatening arrhythmias triggered by these highly
+      caffeinated beverages.
     </p>
   </div>
 
   <h2 class="hr-lines" style="margin-top: 50px; margin-bottom: 10px">
-    - The Timeline -
+    - A Regulatory Gap -
   </h2>
-  <p class="subhead" style="margin-bottom: 30px">
-    It took a quarter-century for the bill to be enacted
-  </p>
+
+  </br>
 
   <div class="content">
     <p>
-      The enactment of laws under Article 23 has been a contentious issue,
-      which has taken over 20 years and witnessed the shift of city’s
-      political landscape.
-    </p>
-    <p>
-      When Hong Kong was handed over to China in 1997, the Basic Law was
-      established to govern the city, promising a high degree of autonomy
-      under the principle of "one country, two systems."
-    </p>
-    <p>
-      While Article 23 of the Basic Law mandates Hong Kong to enact its own
-      national security laws, the central government took a rather mild
-      attitudes towards the legislation.
-    </p>
-    <p>But everything went wrong in 2002.</p>
-  </div>
-
-  <div class="content">
-    <p>
-      And yes, Regina Ip who failed in 2003, is still there. The now senior
-      legislator of Hong Kong told CNN that the legislation is "a task that
-      has been outstanding for 27 years".
-    </p>
-    <p>
-      "We're not bowing to the pressure of China", said Ip. "it's our legal,
-      constituinal and moral responsibility to safegurd national security."
-    </p>
-    <p>
-      While the Hong Kong government is trying to persuade investors that the
-      city is still going to be the financial hub, harms have already been
-      done. The Department of State released a statement on February 28
-      expressing its concern over the undermining of the “One Country, Two
-      Systems” framework.
-    </p>
-    <p>
-      "We are particularly concerned by Hong Kong authorities' proposal to
-      adopt broad and vague definitions of state secrets and external
-      interference," said the spokesperson. "That could be used to eliminate
-      dissent through the fear of arrest and detention."
+      Current guidelines on caffeine labeling required by Food and Drug Administration (FDA) is that caffeine must be
+      listed as an ingredient only if it is added to a product artificially. While there is a daily recommended limit of
+      400mg for healthy adults,the total amount of caffeine, whether added or naturally occurring, does not need to be
+      disclosed on food and beverage labels. This omission applies even if a product contains substantial amounts of
+      caffeine, as is common in energy drinks and certain sodas.
     </p>
   </div>
-
-  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
-    - The Heritage -
-  </h2>
 
   <div class="viz-section">
-    <h3>Select Drinks</h3>
+    <h3 class="visualization-headline" style="font-family: DM Serif Text, serif;font-size: 24px">The Caffeine Vending
+      Machine</h3>
+    <p class="visualization-headline" style="font-family: DM Serif Text, serif;font-size: 20px">See how much caffeine
+      you'll consume</p>
     <div>
       <label for="brand-select">Brand:</label>
       <select id="brand-select">
@@ -527,7 +501,7 @@
     <div class="drink-list-container">
       <ul id="drink-list"></ul>
     </div>
-    <h3>Selected Drinks</h3>
+    <h3 style="font-size: 18px">Selected Drinks</h3>
     <div>
       <ul id="selected-drinks" class="selected-drinks"></ul>
     </div>
@@ -540,33 +514,33 @@
 
   <div class="content">
     <p>
-      "The legislation of Article 23 showed Beijing's changing attitude on
-      Hong Kong and the 'One Country, Two Systems'," said Johnny Lau, a senior
-      news commentor. "The 1 July march in 2003 greatly alarmed Beijing,
-      leading mainland Chinese authorities to send a significant number of
-      people southward to investigate. They attributed Hong Kongers'
-      opposition to Article 23 to a lack of 'emotional reunification'."
+      “There's definitely no requirement for caffeine content labeling on things like soft drinks or bottled coffee
+      beverages,” said Eva Greenthal, who oversees federal food labeling work at the Center for Science in the Public
+      Interest. “For products that come with labels, while there is some testing for accuracy done at USDA and FDA,
+      those agencies have limited resources so they're not able to test the accuracy of every single product.”
     </p>
     <p>
-      Press freedom has always been an advantage that differentiates Hong Kong
-      from the mainland and is also the pillar of civil society that Hong Kong
-      people were once proud of. However, Article 23 means it's in jeopardy.
+      The FDA’s stance is that consumers should know that products like coffee and tea naturally contain caffeine, but
+      there is no requirement to inform consumers about the specific quantity, unless the caffeine is directly added as
+      a separate ingredient. This regulatory gap can lead to consumers unknowingly ingesting high levels of caffeine,
+      particularly from products where the caffeine content isn't obvious, thus posing potential health risks to
+      individuals sensitive to or advised to limit their caffeine intake.
     </p>
     <p>
-      Radio Free Asia is known as the first outlet to end its Hong Kong
-      business after the bill was passed.
+      Recent legal battles further illuminate the hazards posed by misleading caffeine labeling and lack of regulation.
+      In the case of T.K. v. Prime Hydration LLC et al., the beverage company faced allegations of targeting minors with
+      high-caffeine drinks without adequate warnings, capitalizing on celebrity endorsements to appeal to younger
+      audiences.
     </p>
     <p>
-      "Their broad and vague definitions make it hard for journalists to make
-      sound judgement on what could constitute a threat to national security,"
-      said Hong Kong Journalists Association. "This could create a chilling
-      effect, deterring the press from doing relevant reporting due to legal
-      concerns."
+      “Prime Hydration LLC and its founders engaged in deceptive marketing practices by promoting these high-caffeine
+      drinks as healthy lifestyle choices without adequate warnings about their potential dangers,"said the plaintiff's
+      attorney.
     </p>
-  </div>
-
-  <div style="text-align: center">
-    <img src="skyline.png" style="width: 50%; text-align: center" />
+    <p>
+      “These drinks contain undisclosed amounts of caffeine and other stimulants that are not fully regulated, posing
+      significant risks to consumers, especially those unaware of their potential side effects.”
+    </p>
   </div>
 
   <script src="app.js"></script>
@@ -685,7 +659,7 @@
   <div class="content" style="text-align: center">
     <a href="https://thomastaoli.github.io/portfolio.html">Back to my portfolio page</a>
   </div>
-  <br/>
+  <br />
 
 </body>
 
