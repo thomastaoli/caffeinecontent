@@ -28,6 +28,9 @@
   <!-- Include the D3.js library from 2.html -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
+  <!--Mapbox-->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
   <!-- Styles from 2.html -->
   <style>
     body {
@@ -37,7 +40,7 @@
       /* Nunito as a fallback for Avenir */
       text-rendering: optimizeLegibility;
       background: #F3F3F3;
-      color: #9b9b9b;
+      color: #808080;
     }
 
     .byline {
@@ -350,6 +353,41 @@
       align-items: center;
       justify-content: center;
     }
+
+    #map-story {
+      padding: 20px;
+      display: flex;
+      height: 600px;
+      /* Adjust based on your content */
+      max-width: 80%;
+      /* Making the container narrower */
+      margin: auto;
+      /* Center the container */
+    }
+
+    .text-content {
+      overflow-y: scroll;
+      height: 100%;
+    }
+
+    .text-content h3 {
+      padding-top: 20px;
+    }
+
+    .text-content p {
+      padding: 10px;
+      border-left: 3px solid #ccc;
+      margin: 10px 0;
+    }
+
+    .map-container {
+      height: 100%;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
 
@@ -543,7 +581,118 @@
     </p>
   </div>
 
+  <div id="map-story" style="display: flex; justify-content: space-between; width: 80%; margin: auto;">
+    <div class="text-content" style="width: 50%;">
+      <h2 id="Taiwan">Taiwan</h2>
+      <p>Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and
+        vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical
+        status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
+        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
+        has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant
+        economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status
+        and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
+        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
+        has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant
+        economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status
+        and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
+        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
+        has a unique geopolitical status and vibrant economy.../p>
+      <h2 id="Canada">Canada</h2>
+      <p>Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
+        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
+        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
+        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
+        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
+        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
+        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
+        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
+        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
+        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
+        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
+        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
+        known for its vast wilderness...Canada, known for its vast wilderness...</p>
+      <h2 id="EU">European Union</h2>
+      <p>The European Union, a unique political and economic union...The European Union, a unique political and economic
+        union...The European Union, a unique political and economic union...The European Union, a unique political and
+        economic union...The European Union, a unique political and economic union...The European Union, a unique
+        political and economic union...The European Union, a unique political and economic union...The European Union, a
+        unique political and economic union...The European Union, a unique political and economic union...The European
+        Union, a unique political and economic union...The European Union, a unique political and economic union...The
+        European Union, a unique political and economic union...The European Union, a unique political and economic
+        union...The European Union, a unique political and economic union...The European Union, a unique political and
+        economic union...The European Union, a unique political and economic union...The European Union, a unique
+        political and economic union...The European Union, a unique political and economic union...The European Union, a
+        unique political and economic union...The European Union, a unique political and economic union...The European
+        Union, a unique political and economic union...The European Union, a unique political and economic union...The
+        European Union, a unique political and economic union...The European Union, a unique political and economic
+        union...The European Union, a unique political and economic union...The European Union, a unique political and
+        economic union...The European Union, a unique political and economic union...The European Union, a unique
+        political and economic union...The European Union, a unique political and economic union...The European Union, a
+        unique political and economic union...The European Union, a unique political and economic union...</p>
+    </div>
+    <div class="map-container" style="width: 50%;">
+      <div id="map"></div>
+    </div>
+  </div>
+
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
   <script src="app.js"></script>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let previousEntry = null;
+      mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg'; // Ensure this is your valid token
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [120.9605, 23.6978], // Initial center position
+        zoom: 5 // Initial zoom level
+      });
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Update map based on the active country
+            let country = entry.target.id;
+            switch (country) {
+              case 'Taiwan':
+                map.flyTo({ center: [120.9673, 23.8370], zoom: 7, speed: 0.5 });
+                break;
+              case 'Canada':
+                map.flyTo({ center: [-113.3468, 60.1304], zoom: 3, speed: 0.5 });
+                break;
+              case 'EU':
+                map.flyTo({ center: [10.4515, 51.1657], zoom: 4, speed: 0.5 });
+                break;
+            }
+
+            // Change the color of the previous paragraph
+            if (previousEntry && previousEntry.target.nextElementSibling) {
+              previousEntry.target.nextElementSibling.style.color = 'lightgray';
+            }
+            if (entry.target.nextElementSibling) {
+              entry.target.nextElementSibling.style.color = '#808080'; // Reset color of current paragraph
+            }
+
+            // Update the previousEntry reference
+            previousEntry = entry;
+          }
+        });
+      }, {
+        root: null,
+        rootMargin: '50% 0px 0px 0px', // Adjust top margin to trigger before the title reaches the top
+        threshold: 0.99 // Adjusting the threshold to ensure it is almost fully visible
+      });
+
+      document.querySelectorAll('.text-content h2').forEach(title => {
+        observer.observe(title);
+      });
+    });
+  </script>
 
   <script>
     const data = [
