@@ -29,7 +29,8 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <!--Mapbox-->
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
 
   <!-- Styles from 2.html -->
   <style>
@@ -355,6 +356,9 @@
     }
 
     #map-story {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 20px;
       display: flex;
       height: 600px;
@@ -581,62 +585,118 @@
     </p>
   </div>
 
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - Global Perspectives on Caffeine Regulation -
+  </h2>
+
+  </br>
+
+  <div class="content">
+    <p>
+      While the United States continues to debate the need for stricter caffeine labeling laws, other countries have
+      already implemented comprehensive regulations to ensure consumer safety and transparency. These international
+      standards provide valuable insights into how caffeine regulation can be effectively managed.
+    </p>
+  </div>
+
+  </br>
+
   <div id="map-story" style="display: flex; justify-content: space-between; width: 80%; margin: auto;">
     <div class="text-content" style="width: 50%;">
       <h2 id="Taiwan">Taiwan</h2>
-      <p>Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and
-        vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical
-        status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
-        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
-        has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant
-        economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status
-        and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
-        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
-        has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant
-        economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique geopolitical status
-        and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan has a unique
-        geopolitical status and vibrant economy...Taiwan has a unique geopolitical status and vibrant economy...Taiwan
-        has a unique geopolitical status and vibrant economy.../p>
+      <p>In Taiwan, caffeine regulation and labeling are tightly controlled to ensure consumer safety and transparency.
+        <a
+          href="https://www.foodlabel.org.tw/FdaFrontEndApp/Law/Edit?SystemId=6d6b70d5-079f-417a-a85b-dbac15a03a09&clPublishStatus=1">The
+          Ministry of Health and Welfare</a> mandates that prepackaged beverages containing caffeine must clearly label
+        the caffeine content per 100 milliliters. Beverages with more than 20 milligrams of caffeine per 100 milliliters
+        must explicitly state the caffeine content on their packaging. If the caffeine content is below this threshold,
+        a label indicating "less than 20mg/100mL" is required. Products containing 2 milligrams or less per 100
+        milliliters can be labeled as "low caffeine"
+      </p>
+      <div style="position: relative; margin-top: 20px;">
+        <img src="taiwan-1.jpeg" style="width: 100%;" />
+        <div class="annotation" style="top: 10%; left: 5%; font-style: italic;font-size: 18px;">A café menu in Taiwan
+          with color-coded
+          caffeine levels.</div>
+      </div>
+      <p>
+        In addition to these requirements regarding packaged beverages, Taiwan uses a color-coded system for freshly
+        brewed coffee to help consumers
+        quickly assess caffeine levels. Red indicates a caffeine content above 200 milligrams per serving, yellow for
+        100-200 milligrams, and green for less than 100 milligrams. This system allows consumers to make informed
+        choices about their caffeine intake, catering to different health needs and preferences.
+      </p>
       <h2 id="Canada">Canada</h2>
-      <p>Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
-        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
-        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
-        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
-        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
-        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
-        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
-        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
-        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
-        known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast
-        wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada, known for
-        its vast wilderness...Canada, known for its vast wilderness...Canada, known for its vast wilderness...Canada,
-        known for its vast wilderness...Canada, known for its vast wilderness...</p>
+      <p>In Canada, the regulation and labeling of caffeine in foods and beverages are overseen by Health Canada, which
+        has established guidelines to ensure consumer safety and transparency. Prepackaged foods containing caffeine
+        must list all ingredients, including caffeine, in descending order by weight. For beverages that combine added
+        caffeine with naturally caffeinated ingredients like guarana or yerba mate, the total caffeine content must be
+        declared.​</p>
+      <div style="position: relative; margin-top: 20px;">
+        <img src="canada-1.jpeg" style="width: 100%;" />
+        <div class="annotation" style="top: 10%; left: 5%; font-style: italic;font-size: 20px;">Red Bull sold in Canada
+          with
+          supplemented food labels.</div>
+      </div>
+      <p>
+        Caffeinated energy drinks, which can contain up to <a href
+          - "https://www.canada.ca/en/health-canada/services/food-nutrition/supplemented-foods/list-permitted-food-ingredients.html">180
+          milligrams </a>of caffeine per serving, are subject to
+        stringent labeling requirements. These products must include cautionary statements advising consumers about the
+        recommended limits on caffeine intake and warning specific groups—such as children under 14, pregnant or
+        breastfeeding women, and individuals sensitive to caffeine—to avoid these drinks.
+      </p>
+      <div style="position: relative; margin-top: 20px;">
+        <img src="canada-2.jpeg" style="width: 100%;" />
+        <div class="annotation" style="top: 10%; left: 5%; font-style: italic; font-size: 18px;">How nutrition facts of
+          supplemented food
+          should be displayed in Canada.</div>
+      </div>
+      <p>
+        Additionally, the new <a
+          href="https://www.canada.ca/en/health-canada/services/food-nutrition/legislation-guidelines/guidance-documents/supplemented-foods-regulations.html">
+          supplemented foods regulations</a> mandate that any caffeinated beverages exceeding certain
+        caffeine levels must carry a "High caffeine content" warning on their labels. Supplemented foods, which include
+        products fortified with vitamins, minerals, amino acids, or other substances, are also required to clearly list
+        the amounts of these added substances.
+      </p>
       <h2 id="EU">European Union</h2>
-      <p>The European Union, a unique political and economic union...The European Union, a unique political and economic
-        union...The European Union, a unique political and economic union...The European Union, a unique political and
-        economic union...The European Union, a unique political and economic union...The European Union, a unique
-        political and economic union...The European Union, a unique political and economic union...The European Union, a
-        unique political and economic union...The European Union, a unique political and economic union...The European
-        Union, a unique political and economic union...The European Union, a unique political and economic union...The
-        European Union, a unique political and economic union...The European Union, a unique political and economic
-        union...The European Union, a unique political and economic union...The European Union, a unique political and
-        economic union...The European Union, a unique political and economic union...The European Union, a unique
-        political and economic union...The European Union, a unique political and economic union...The European Union, a
-        unique political and economic union...The European Union, a unique political and economic union...The European
-        Union, a unique political and economic union...The European Union, a unique political and economic union...The
-        European Union, a unique political and economic union...The European Union, a unique political and economic
-        union...The European Union, a unique political and economic union...The European Union, a unique political and
-        economic union...The European Union, a unique political and economic union...The European Union, a unique
-        political and economic union...The European Union, a unique political and economic union...The European Union, a
-        unique political and economic union...The European Union, a unique political and economic union...</p>
+      <p>In the European Union, the regulation and labeling of caffeine in food and beverages are governed by
+        comprehensive guidelines to ensure consumer safety and informed decision-making. The key regulation, <a
+          href="https://www.fao.org/faolex/results/details/en/c/LEX-FAOC128444/#:~:text=This%20Regulation%20provides%20the%20basis,market%20of%20the%20European%20Union.">No
+          1169/2011</a> mandates that any prepackaged food or beverage containing caffeine must clearly state its
+        presence in the ingredients list. If the caffeine content exceeds 150 mg per liter, the product must include the
+        warning “High caffeine content. Not recommended for children or pregnant or breastfeeding women” followed by the
+        actual caffeine content per 100 ml, ensuring consumers are aware of the potential risks associated with high
+        caffeine
+        intake.</p>
+      <p>
+        Additionally, energy drinks and other high-caffeine products must adhere to stringent labeling requirements. The
+        European Food Safety Authority (EFSA) has conducted <a
+          href="https://www.efsa.europa.eu/sites/default/files/corporate_publications/files/efsaexplainscaffeine150527.pdf">risk
+          assessments</a> to determine safe caffeine consumption
+        levels. While the recommendation for healthy adults align with FDA's 400 mg of caffeine per day, the recommended
+        limit for pregnant and breastfeeding women is set at 200 mg per day.
+      </p>
     </div>
     <div class="map-container" style="width: 50%;">
       <div id="map"></div>
     </div>
   </div>
 
+  <br>
 
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <div class="content">
+    <p>
+      Greenthal sees the positive impact of stricter labeling regulations on consumer health and safety:"What we really
+      see is changes to purchasing and diet quality. While it's hard to link any specific policy to biomarker and health
+      outcomes, changes in what types of foods people are buying we can understand as important public health
+      advances."
+    </p>
+  </div>
+
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
 
   <script src="app.js"></script>
 
@@ -648,9 +708,10 @@
       mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg'; // Ensure this is your valid token
       var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [120.9605, 23.6978], // Initial center position
-        zoom: 5 // Initial zoom level
+        style: 'mapbox://styles/litaothomaslee/clyyresri019901p93m24h6xf',
+        center: [120.9605, 22.6978], // Initial center position
+        zoom: 5, // Initial zoom level
+        pitch: 30
       });
 
       const observer = new IntersectionObserver((entries) => {
@@ -660,13 +721,13 @@
             let country = entry.target.id;
             switch (country) {
               case 'Taiwan':
-                map.flyTo({ center: [120.9673, 23.8370], zoom: 7, speed: 0.5 });
+                map.flyTo({ center: [120.9673, 23.22], zoom: 7, speed: 0.7 });
                 break;
               case 'Canada':
-                map.flyTo({ center: [-113.3468, 60.1304], zoom: 3, speed: 0.5 });
+                map.flyTo({ center: [-102.3468, 63.1304], zoom: 3, speed: 0.7 });
                 break;
               case 'EU':
-                map.flyTo({ center: [10.4515, 51.1657], zoom: 4, speed: 0.5 });
+                map.flyTo({ center: [10.4515, 51.1657], zoom: 4, speed: 0.7 });
                 break;
             }
 
@@ -684,7 +745,7 @@
         });
       }, {
         root: null,
-        rootMargin: '50% 0px 0px 0px', // Adjust top margin to trigger before the title reaches the top
+        rootMargin: '10% 0px 0px 0px', // Adjust top margin to trigger before the title reaches the top
         threshold: 0.99 // Adjusting the threshold to ensure it is almost fully visible
       });
 
