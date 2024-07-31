@@ -24,6 +24,11 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Include the D3.js library from 2.html -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -37,8 +42,7 @@
     body {
       margin: 0;
       font-size: 20px;
-      font-family: "Nunito", sans-serif;
-      /* Nunito as a fallback for Avenir */
+      font-family: "Roboto", sans-serif;
       text-rendering: optimizeLegibility;
       background: #F3F3F3;
       color: #808080;
@@ -758,6 +762,13 @@
   <script>
     const data = [
       {
+        drink: "Panera Charged Lemonade 30 oz",
+        caffeine: 390,
+        equivalent: 2.166667,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/charged-lemonade.jpg",
+      },
+      {
         drink: "Monster Energy 16 oz",
         caffeine: 160,
         equivalent: 1.066667,
@@ -786,18 +797,18 @@
           "https://www.caffeineinformer.com/wp-content/caffeine/bang-energy-drink.jpg",
       },
       {
-        drink: "Panera Charged Lemonade 30 oz",
-        caffeine: 160,
-        equivalent: 1.066667,
-        pic_link:
-          "https://www.caffeineinformer.com/wp-content/caffeine/charged-lemonade.jpg",
-      },
-      {
         drink: "Mountain Dew 12 oz",
         caffeine: 54,
         equivalent: 0.36,
         pic_link:
           "https://www.caffeineinformer.com/wp-content/caffeine/mountain-dew.jpg",
+      },
+      {
+        drink: "Sunkist Orange Soda",
+        caffeine: 19,
+        equivalent: 0.1,
+        pic_link:
+          "https://www.caffeineinformer.com/wp-content/caffeine/sunkist-orange-soda.jpg",
       },
     ];
 

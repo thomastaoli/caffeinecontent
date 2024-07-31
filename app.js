@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    d3.csv("caffeine_data_with_pic_links.csv").then(function (vendingdata) {
+  d3.csv("caffeine_data_with_pic_links.csv", d3.autoType).then(function (vendingdata) {
       const brandSelect = document.getElementById('brand-select');
       const typeSelect = document.getElementById('type-select');
       const drinkList = document.getElementById('drink-list');
@@ -8,101 +8,130 @@ document.addEventListener('DOMContentLoaded', function () {
       const calculateButton = document.getElementById('calculate-caffeine');
       const clearButton = document.getElementById('clear-selection');
       const warningMessage = document.createElement('p');
-  
+
       warningMessage.style.color = 'red';
       warningMessage.textContent = 'You exceeded the FDA daily recommendation';
       warningMessage.style.display = 'none';
       totalCaffeine.parentElement.appendChild(warningMessage);
-  
+
+      function updateOptions() {
+          const selectedBrand = brandSelect.value;
+          const selectedType = typeSelect.value;
+
+          const availableTypes = new Set(vendingdata.filter(d => d.Brand === selectedBrand || !selectedBrand).map(d => d.Type));
+          const availableBrands = new Set(vendingdata.filter(d => d.Type === selectedType || !selectedType).map(d => d.Brand));
+
+          Array.from(typeSelect.options).forEach(option => {
+              option.style.display = availableTypes.has(option.value) || option.value === '' ? 'block' : 'none';
+          });
+
+          Array.from(brandSelect.options).forEach(option => {
+              option.style.display = availableBrands.has(option.value) || option.value === '' ? 'block' : 'none';
+          });
+      }
+
+      function populateSelectOptions(selectElement, options, defaultOptionText) {
+          selectElement.innerHTML = '';
+          const defaultOption = document.createElement('option');
+          defaultOption.value = '';
+          defaultOption.text = defaultOptionText;
+          selectElement.add(defaultOption);
+
+          options.forEach(option => {
+              const opt = document.createElement('option');
+              opt.value = option;
+              opt.text = option;
+              selectElement.add(opt);
+          });
+      }
+
       const brands = [...new Set(vendingdata.map(d => d.Brand))];
       const types = [...new Set(vendingdata.map(d => d.Type))];
-  
-      brands.forEach(brand => {
-        const option = document.createElement('option');
-        option.value = brand;
-        option.text = brand;
-        brandSelect.add(option);
-      });
-  
-      types.forEach(type => {
-        const option = document.createElement('option');
-        option.value = type;
-        option.text = type;
-        typeSelect.add(option);
-      });
-  
+
+      populateSelectOptions(brandSelect, brands, 'All Brands');
+      populateSelectOptions(typeSelect, types, 'All Types');
+
       let selectedDrinks = [];
-  
+
       function updateDrinkList() {
-        drinkList.innerHTML = '';
-        const filteredData = vendingdata.filter(d => {
-          return (brandSelect.value === '' || d.Brand === brandSelect.value) &&
-                 (typeSelect.value === '' || d.Type === typeSelect.value);
-        });
-  
-        filteredData.forEach(drink => {
-          const li = document.createElement('li');
-          const img = document.createElement('img');
-          img.src = drink.pic_link;
-          img.dataset.caffeine = drink.Caffeine;
-          img.dataset.pic = drink.pic_link;
-          img.dataset.brand = drink.Brand;
-          img.dataset.name = drink.Name;
-          img.addEventListener('click', function () {
-            if (selectedDrinks.length < 5) {
-              selectedDrinks.push({
-                brand: this.dataset.brand,
-                name: this.dataset.name,
-                caffeine: Number(this.dataset.caffeine),
-                pic: this.dataset.pic
-              });
-              updateSelectedDrinks();
-            } else {
-              alert("You can only select up to 5 drinks.");
-            }
+          drinkList.innerHTML = '';
+          const filteredData = vendingdata.filter(d => {
+              return (brandSelect.value === '' || d.Brand === brandSelect.value) &&
+                  (typeSelect.value === '' || d.Type === typeSelect.value);
           });
-          li.appendChild(img);
-          drinkList.appendChild(li);
-        });
+
+          filteredData.forEach(drink => {
+              const li = document.createElement('li');
+              const img = document.createElement('img');
+              img.src = drink.pic_link;
+              img.dataset.caffeine = drink.Caffeine;
+              img.dataset.pic = drink.pic_link;
+              img.dataset.brand = drink.Brand;
+              img.dataset.name = drink.Name;
+              img.title = drink.Name; // Tooltip with the drink name
+              img.addEventListener('click', function () {
+                  if (selectedDrinks.length < 5) {
+                      selectedDrinks.push({
+                          brand: this.dataset.brand,
+                          name: this.dataset.name,
+                          caffeine: Number(this.dataset.caffeine),
+                          pic: this.dataset.pic
+                      });
+                      updateSelectedDrinks();
+                  } else {
+                      alert("You can only select up to 5 drinks.");
+                  }
+              });
+              li.appendChild(img);
+              drinkList.appendChild(li);
+          });
       }
-  
+
       function updateSelectedDrinks() {
-        selectedDrinksList.innerHTML = '';
-        selectedDrinks.forEach(drink => {
-          const li = document.createElement('li');
-          const img = document.createElement('img');
-          img.src = drink.pic;
-          li.appendChild(img);
-          li.appendChild(document.createTextNode(`${drink.name}`));
-          selectedDrinksList.appendChild(li);
-        });
+          selectedDrinksList.innerHTML = '';
+          selectedDrinks.forEach(drink => {
+              const li = document.createElement('li');
+              const img = document.createElement('img');
+              img.src = drink.pic;
+              li.appendChild(img);
+              li.appendChild(document.createTextNode(`${drink.name}`));
+              selectedDrinksList.appendChild(li);
+          });
       }
-  
+
       function clearSelection() {
-        selectedDrinks = [];
-        updateSelectedDrinks();
-        totalCaffeine.textContent = 0;
-        warningMessage.style.display = 'none';
-      }
-  
-      brandSelect.addEventListener('change', updateDrinkList);
-      typeSelect.addEventListener('change', updateDrinkList);
-  
-      calculateButton.addEventListener('click', function () {
-        const total = selectedDrinks.reduce((sum, val) => sum + val.caffeine, 0);
-        totalCaffeine.textContent = total;
-        if (total > 400) {
-          warningMessage.style.display = 'block';
-        } else {
+          selectedDrinks = [];
+          updateSelectedDrinks();
+          totalCaffeine.textContent = 0;
           warningMessage.style.display = 'none';
-        }
+      }
+
+      brandSelect.addEventListener('change', () => {
+          updateDrinkList();
+          updateOptions();
       });
-  
+
+      typeSelect.addEventListener('change', () => {
+          updateDrinkList();
+          updateOptions();
+      });
+
+      calculateButton.addEventListener('click', function () {
+          const total = selectedDrinks.reduce((sum, val) => sum + val.caffeine, 0);
+          totalCaffeine.textContent = total;
+          if (total > 400) {
+              warningMessage.style.display = 'block';
+          } else {
+              warningMessage.style.display = 'none';
+          }
+      });
+
       clearButton.addEventListener('click', clearSelection);
-  
+
       updateDrinkList();
-    });
+      updateOptions();
   });
+});
   
 
 
