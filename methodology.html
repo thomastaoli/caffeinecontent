@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Over-caffeinated and Overlooked</title>
+  <link rel="icon" href="logo.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="" />
+  <meta property="og:url" content="https://github.com/thomastaoli/article-23/" />
+  <meta property="og:image" content="https://github.com/thomastaoli/article-23/headerbg.png" />
+  <meta property="og:description" content="The rise of caffeine-related health issues show there is a growing
+      demand for stricter labeling laws to prevent further tragedies and
+      ensure public safety. The FDA, however, is doing nothing." />
+  <meta property="article:author" content="Thomas Li" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Styles from 2.html -->
+  <style>
+    body {
+      margin: 0;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+      text-rendering: optimizeLegibility;
+      background: #F3F3F3;
+      color: #808080;
+    }
+
+    .byline {
+      font-size: 1.1rem;
+      line-height: 0.75;
+      margin-top: 1.5rem;
+      font-weight: 500;
+    }
+
+    .date {
+      font-size: 0.85rem;
+      line-height: 1;
+      margin-top: 10px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .content {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .header {
+      padding: 3em 0;
+    }
+
+    a {
+      color: #f05349;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 4em;
+      padding: 4em 0;
+    }
+
+    figure {
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #666;
+    }
+
+    h1 {
+      font-family: "DM Serif Text", serif;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 1;
+      color: #9b9b9b;
+    }
+
+    h2 {
+      font-family: "DM Serif Text", serif;
+      font-weight: bold;
+      font-size: 1.3em;
+      line-height: 1;
+      color: #9b9b9b;
+    }
+
+    .hr-lines {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      font-family: "DM Serif Text", serif;
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    .subhead {
+      font-family: "Nunito", sans-serif;
+      text-align: center;
+    }
+
+    iframe,
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: 1em;
+      line-height: 1.6;
+    }
+
+    iframe {
+      padding-bottom: 1.2em;
+    }
+
+    code {
+      font-family: "Courier New", monospace;
+      background: #fff880;
+    }
+
+    /* margin on mobile */
+    @media (max-width: 640px) {
+      body {
+        font-size: 18px;
+      }
+
+      .content {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+
+      .header-container {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      /* Adjust the height based on the width while maintaining aspect ratio */
+    }
+
+    .portrait {
+      float: center;
+      /* Position the portrait to the left */
+      width: 80px;
+      /* Adjust the width as needed */
+      height: 80px;
+      /* Adjust the height as needed */
+      border-radius: 50%;
+      /* Make the portrait round */
+      margin-right: 15px;
+      /* Add some space between the portrait and the text */
+      object-fit: cover;
+      /* Ensure the image covers the area without distortion */
+    }
+
+    /* Styles from 2.html */
+    .visualization-wrapper {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      width: 800px;
+      /* Fixed width */
+      height: 300px;
+      /* Fixed height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visualization-headline {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .visualization-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      /* Ensure it takes the full height of the wrapper */
+    }
+
+    .arrow {
+      cursor: pointer;
+      font-size: 50px;
+      margin: 0 20px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+    }
+
+    .item img,
+    .item .coffee-cup {
+      height: 150px;
+      /* Fixed height for images */
+      width: auto;
+      /* Maintain aspect ratio */
+    }
+
+    .drink-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+
+    .equal-sign {
+      font-size: 50px;
+      margin: 0 20px;
+    }
+
+    .vending-machine-wrapper {
+      background-color: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      width: 800px;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .vending-machine-headline {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .vending-machine {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+    }
+
+    .viz-section {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .viz-section select,
+    .viz-section button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+    .drink-list-container {
+      max-height: 300px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .viz-section ul {
+      list-style-type: none;
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .viz-section li {
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 0 21%;
+      /* Adjusts to 4 images per row */
+    }
+
+    .viz-section img {
+      height: 100px;
+      /* Adjust size as needed */
+      cursor: pointer;
+    }
+
+    .selected-drinks img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .selected-drinks li {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #map-story {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      height: 600px;
+      /* Adjust based on your content */
+      max-width: 80%;
+      /* Making the container narrower */
+      margin: auto;
+      /* Center the container */
+    }
+
+    .text-content {
+      overflow-y: scroll;
+      height: 100%;
+    }
+
+    .text-content h3 {
+      padding-top: 20px;
+    }
+
+    .text-content p {
+      padding: 10px;
+      border-left: 3px solid #ccc;
+      margin: 10px 0;
+    }
+
+    .map-container {
+      height: 100%;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="header" style="text-align: center">
+      <h1>Methodology</h1>
+      <h2 class="subhead" style="font-family: 'DM Serif Text', serif; font-weight: normal">
+        How I made the caffeine story.
+      </h2>
+    </div>
+  </div>
+
+  <div style="text-align: center">
+    <img src="header.png" style="width: 40%; text-align: center" />
+  </div>
+
+  <div style="text-align: center">
+    <p class="byline">
+      By <a href="https://thomastaoli.github.io/">Thomas Li</a>
+    </p>
+    <p class="date">Jul 10, 2024</p>
+  </div>
+
+  <div class="content">
+    <p>
+      Sarah Katz was a promising student: she was doing her degree in
+      international relations at UPenn, and had received a full scholarship
+      from a Chinese university to study Mandarin - as it’s what she was
+      passionate about.
+    </p>
+    <p>
+      Her dreams, however, came to a tragic end after a fatal heart attack -
+      which was triggered by a lemonade from Panera Bread.
+    </p>
+    <p>
+      The beverage, according to a court file, contained 390 milligrams of
+      caffeine - almost the daily maximum suggested by FDA for healthy adults.
+      The fast food chain, though, didn’t put any label warning Katz, who had
+      a heart condition since childhood, that the drink could be dangerous.
+    </p>
+    <p>
+      Sarah’s death is an example of the fatal consequences that can arise
+      from this lack of awareness and labeling. However, she’s not the last
+      victim of Panera’s unlabelled caffeinated drink. At least two other
+      alleged cardiac arrest cases were reported before the restaurant chain
+      stopped selling the lemonade under the pressure of lawsuits.
+    </p>
+  </div>
+
+  <div class="content" style="text-align: center">
+    <a href="https://thomastaoli.github.io/portfolio.html">Back to my portfolio page</a>
+  </div>
+
+<br />
+
+</body>
+
+</html>

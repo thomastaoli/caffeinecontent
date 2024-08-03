@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrollytelling Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .scroll-box { 
+            position: relative; 
+            margin: 0 auto; 
+            padding: 20px; 
+            width: 100%; 
+            max-width: 600px; 
+            background: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px; 
+            margin-bottom: 20px; 
+        }
+        .scroll-container { 
+            position: absolute; 
+            top: 10%; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            width: 100%; 
+            max-width: 600px; 
+            height: 80%; 
+            overflow-y: scroll; 
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="scroll-container">
+        <div class="scroll-box" id="section1">
+            <h2>Taiwan</h2>
+            <p>In Taiwan, caffeine regulation and labeling are tightly controlled to ensure consumer safety and transparency. The Ministry of Health and Welfare mandates that prepackaged beverages containing caffeine must clearly label the caffeine content per 100 milliliters. Beverages with more than 20 milligrams of caffeine per 100 milliliters must explicitly state the caffeine content on their packaging. If the caffeine content is below this threshold, a label indicating "less than 20mg/100mL" is required. Products containing 2 milligrams or less per 100 milliliters can be labeled as "low caffeine".</p>
+        </div>
+        <div class="scroll-box" id="section2">
+            <h2>A café menu in Taiwan with color-coded caffeine levels</h2>
+            <p>In addition to these requirements regarding packaged beverages, Taiwan uses a color-coded system for freshly brewed coffee to help consumers quickly assess caffeine levels. Red indicates a caffeine content above 200 milligrams per serving, yellow for 100-200 milligrams, and green for less than 100 milligrams. This system allows consumers to make informed choices about their caffeine intake, catering to different health needs and preferences.</p>
+        </div>
+        <div class="scroll-box" id="section3">
+            <h2>Canada</h2>
+            <p>In Canada, the regulation and labeling of caffeine in foods and beverages are overseen by Health Canada, which has established guidelines to ensure consumer safety and transparency. Prepackaged foods containing caffeine must list all ingredients, including caffeine, in descending order by weight. For beverages that combine added caffeine with naturally caffeinated ingredients like guarana or yerba mate, the total caffeine content must be declared.</p>
+        </div>
+        <div class="scroll-box" id="section4">
+            <h2>Red Bull sold in Canada with supplemented food labels</h2>
+            <p>Caffeinated energy drinks, which can contain up to 180 milligrams of caffeine per serving, are subject to stringent labeling requirements. These products must include cautionary statements advising consumers about the recommended limits on caffeine intake and warning specific groups—such as children under 14, pregnant or breastfeeding women, and individuals sensitive to caffeine—to avoid these drinks.</p>
+        </div>
+        <div class="scroll-box" id="section5">
+            <h2>How nutrition facts of supplemented food should be displayed in Canada</h2>
+            <p>Additionally, the new supplemented foods regulations mandate that any caffeinated beverages exceeding certain caffeine levels must carry a "High caffeine content" warning on their labels. Supplemented foods, which include products fortified with vitamins, minerals, amino acids, or other substances, are also required to clearly list the amounts of these added substances.</p>
+        </div>
+        <div class="scroll-box" id="section6">
+            <h2>European Union</h2>
+            <p>In the European Union, the regulation and labeling of caffeine in food and beverages are governed by comprehensive guidelines to ensure consumer safety and informed decision-making. The key regulation, No 1169/2011 mandates that any prepackaged food or beverage containing caffeine must clearly state its presence in the ingredients list. If the caffeine content exceeds 150 mg per liter, the product must include the warning “High caffeine content. Not recommended for children or pregnant or breastfeeding women” followed by the actual caffeine content per 100 ml, ensuring consumers are aware of the potential risks associated with high caffeine intake.</p>
+        </div>
+        <div class="scroll-box" id="section7">
+            <h2>Energy drinks and other high-caffeine products in the EU</h2>
+            <p>Additionally, energy drinks and other high-caffeine products must adhere to stringent labeling requirements. The European Food Safety Authority (EFSA) has conducted risk assessments to determine safe caffeine consumption levels. While the recommendation for healthy adults align with FDA's 400 mg of caffeine per day, the recommended limit for pregnant and breastfeeding women is set at 200 mg per day.</p>
+        </div>
+    </div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [121.5654, 25.0330], // Initial center coordinates for Taiwan
+            zoom: 8
+        });
+
+        const sections = document.querySelectorAll('.scroll-box');
+        let currentSection = 0;
+
+        // Function to show the current section and hide the others
+        function showSection(index) {
+            sections.forEach((section, i) => {
+                section.style.display = (i === index) ? 'block' : 'none';
+            });
+            handleScroll(sections[index].id);
+        }
+
+        // Initial display
+        showSection(currentSection);
+
+        // Scroll event listener
+        document.querySelector('.scroll-container').addEventListener('scroll', function() {
+            const containerHeight = this.offsetHeight;
+            const scrollTop = this.scrollTop;
+            
+            sections.forEach((section, index) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                if (scrollTop >= sectionTop - containerHeight / 2 && scrollTop < sectionTop + sectionHeight - containerHeight / 2) {
+                    showSection(index);
+                }
+            });
+        });
+
+        function handleScroll(sectionId) {
+            switch (sectionId) {
+                case 'section1':
+                case 'section2':
+                    map.flyTo({ center: [121.5654, 25.0330], zoom: 8 });
+                    break;
+                case 'section3':
+                case 'section4':
+                case 'section5':
+                    map.flyTo({ center: [-106.3468, 56.1304], zoom: 4 });
+                    break;
+                case 'section6':
+                case 'section7':
+                    map.flyTo({ center: [10.4515, 51.1657], zoom: 4 });
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
+
+
