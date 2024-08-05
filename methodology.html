@@ -8,8 +8,8 @@
   <link rel="icon" href="logo.png" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="" />
-  <meta property="og:url" content="https://github.com/thomastaoli/article-23/" />
-  <meta property="og:image" content="https://github.com/thomastaoli/article-23/headerbg.png" />
+  <meta property="og:url" content="https://github.com/thomastaoli/caffeinecontent/" />
+  <meta property="og:image" content="https://github.com/thomastaoli/caffeinecontent/headerbg.png" />
   <meta property="og:description" content="The rise of caffeine-related health issues show there is a growing
       demand for stricter labeling laws to prevent further tragedies and
       ensure public safety. The FDA, however, is doing nothing." />
@@ -105,7 +105,7 @@
     h2 {
       font-family: "DM Serif Text", serif;
       font-weight: bold;
-      font-size: 1.3em;
+      font-size: 1.6em;
       line-height: 1;
       color: #9b9b9b;
     }
@@ -388,6 +388,30 @@
       width: 100%;
       height: 100%;
     }
+
+    .footer {
+      background-color: white;
+      /* Set background color to white */
+      text-align: center;
+      /* Center-align text */
+      padding: 20px 0;
+      /* Add padding to give some space around the content */
+      font-size: 14px;
+      /* Set a standard font size */
+      color: #333;
+      /* Set a darker text color for readability */
+      border-top: 1px solid #ddd;
+      /* Add a subtle line at the top of the footer */
+    }
+
+    .footer img {
+      width: 50px;
+      /* Control the size of the logo */
+      height: auto;
+      /* Maintain the aspect ratio of the logo */
+      margin-bottom: 10px;
+      /* Space between the logo and the text */
+    }
   </style>
 </head>
 
@@ -402,7 +426,7 @@
   </div>
 
   <div style="text-align: center">
-    <img src="header.png" style="width: 40%; text-align: center" />
+    <img src="nfsketches.png" style="width: 40%; text-align: center" />
   </div>
 
   <div style="text-align: center">
@@ -412,37 +436,96 @@
     <p class="date">Jul 10, 2024</p>
   </div>
 
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - Discovery of the Story -
+  </h2>
+
+  </br>
+
   <div class="content">
     <p>
-      Sarah Katz was a promising student: she was doing her degree in
-      international relations at UPenn, and had received a full scholarship
-      from a Chinese university to study Mandarin - as it’s what she was
-      passionate about.
+      My exploration into America's unlabelled caffeine consumption began after noticing an alarming trend in
+      health-related incidents linked to unregulated caffeine intake. The case of Sarah Katz, who tragically passed
+      after consuming a highly caffeinated beverage from Panera Bread, was a starting point. Her story, shared widely in
+      the media, highlighted the broader issue of potential health risks from unlabelled caffeine in beverages that are
+      not typically associated with high caffeine content, such as lemonades and non-coffee drinks.
     </p>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - Data Gathering -
+  </h2>
+
+  </br>
+
+  <div class="content">
     <p>
-      Her dreams, however, came to a tragic end after a fatal heart attack -
-      which was triggered by a lemonade from Panera Bread.
+      One of the key challenges in investigating this issue was the lack of comprehensive data on caffeine content in
+      various beverages. To understand the magnitude of this issue, I utilized several databases and conducted extensive
+      research to compile a list of common drinks and their caffeine content. The data was collected from various
+      sources,
+      including the USDA's FoodData Central, user-maintained databases, and major beverage manufacturers and cafe
+      chains.
     </p>
+    <ul>
+      <li><strong><a href="https://fdc.nal.usda.gov/">FoodData Central:</a></strong> This USDA portal provided a comprehensive look at the ingredients in common
+        food items, particularly caffeinated drinks.</li>
+      <li><strong><a href="https://www.caffeineinformer.com/">Caffeine Informer:</a></strong> An updated user-maintained database that lists caffeine content
+        for a variety of beverages available on the market.</li>
+      <li><strong>Major beverage manufacturers and cafe chains:</strong> I scraped their websites to gather information
+        on caffeine content and serving sizes.</li>
+    </ul>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - Legal and Regulatory Framework -
+  </h2>
+  </br>
+  <div class="content">
     <p>
-      The beverage, according to a court file, contained 390 milligrams of
-      caffeine - almost the daily maximum suggested by FDA for healthy adults.
-      The fast food chain, though, didn’t put any label warning Katz, who had
-      a heart condition since childhood, that the drink could be dangerous.
+      Understanding the regulatory landscape was crucial. I reviewed the <a href="https://www.congress.gov/bill/117th-congress/house-bill/4917#:~:text=Food%20Labeling%20Modernization%20Act%20of%202021,-This%20bill%20imposes&text=Labels%20that%20use%20certain%20terms,that%20item%20in%20the%20food.">Food Labeling Modernization Act of 2021</a> and
+      various international labeling standards, comparing them against U.S. practices. This comparison shed light on the
+      gaps in U.S. regulations concerning caffeine disclosure. Additionally, I studied two class-action lawsuits against
+      energy drink manufacturer, which highlighted the real-world consequences and
+      legal challenges associated with inadequate caffeine labeling on consumer products.
     </p>
-    <p>
-      Sarah’s death is an example of the fatal consequences that can arise
-      from this lack of awareness and labeling. However, she’s not the last
-      victim of Panera’s unlabelled caffeinated drink. At least two other
-      alleged cardiac arrest cases were reported before the restaurant chain
-      stopped selling the lemonade under the pressure of lawsuits.
-    </p>
+  </div>
+
+  <h2 class="hr-lines" style="margin-top: 30px; margin-bottom: 10px">
+    - Interactive and Analytical Elements -
+  </h2>
+  </br>
+  <div class="content">
+    <p>To provide an engaging and interactive reader experience, I incorporated several advanced visualization tools
+      within the story:</p>
+    <ul>
+      <li><strong>D3.js:</strong> Utilized for creating dynamic and interactive data visualizations. This JavaScript
+        library helped me develop a custom caffeine tracker that allows readers to input their daily beverage
+        consumption and see how their caffeine intake compares to FDA recommendations. Additionally, D3.js was used to
+        craft an interactive graph showing various drinks and their caffeine content, enhancing the story's impact by
+        making data exploration intuitive and informative.</li>
+      <li><strong>Mapbox:</strong> Employed to develop an interactive global map showcasing different countries'
+        caffeine labeling laws. This feature enabled readers to click on various countries to view specific regulatory
+        details, effectively illustrating the global landscape of caffeine regulation. Mapbox's robust mapping
+        capabilities allowed for a visually appealing and easily navigable interface that enriched the story's global
+        perspective.</li>
+    </ul>
+    <p>These tools were instrumental in bringing complex data sets to life, making them accessible and understandable to
+      a broad audience. By integrating these visual elements, the story not only conveyed the necessary information but
+      also engaged readers in an interactive learning process.</p>
   </div>
 
   <div class="content" style="text-align: center">
+    <a href="index.html">Back to the story</a><br><br>
+    <a href="https://github.com/thomastaoli/caffeinecontent">View GitHub repository</a><br><br>
     <a href="https://thomastaoli.github.io/portfolio.html">Back to my portfolio page</a>
   </div>
+  <br />
 
-<br />
+  <div class="footer" style="text-align: center">
+    <img src="lilogo.png" alt="Logo" style="width: 50px; height: auto;"><br>
+    © 2024 by Thomas Tao Li.
+  </div>
 
 </body>
 
