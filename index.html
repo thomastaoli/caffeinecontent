@@ -788,35 +788,70 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let previousEntry = null;
-      mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg'; // Ensure this is your valid token
+      mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg'; // Use your actual Mapbox access token
       var map = new mapboxgl.Map({
         container: 'mapbackground',
-        style: 'mapbox://styles/litaothomaslee/clyyresri019901p93m24h6xf',
+        style: 'mapbox://styles/litaothomaslee/clyyresri019901p93m24h6xf', // Use your actual Mapbox style
         center: [120.9605, 22.6978], // Initial center position
         zoom: 5, // Initial zoom level
+      });
+
+      map.on('load', function () {
+        // Optionally add a source and layer for highlighting if not predefined in your style
+        map.addSource('highlight-source', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: [] // This will be dynamically populated
+          }
+        });
+
+        map.addLayer({
+          id: 'highlight-layer',
+          type: 'fill',
+          source: 'highlight-source',
+          layout: {},
+          paint: {
+            'fill-color': '#ff0000', // Red color for highlighting
+            'fill-opacity': 0.5
+          }
+        });
       });
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            // Update map based on the active country
             let country = entry.target.id;
+            let bounds; // Define bounds based on the country
+
             switch (country) {
               case 'Taiwan':
-                map.flyTo({ center: [120.9673, 23.22], zoom: 7, speed: 0.7 });
+                bounds = new mapboxgl.LngLatBounds([120.9273, 21.90], [122.0073, 25.30]);
                 break;
               case 'Canada':
-                map.flyTo({ center: [-110.3468, 60.1304], zoom: 4, speed: 0.7 });
+                bounds = new mapboxgl.LngLatBounds([-140.9978, 50.0000], [-110.0059, 70.0000]);
                 break;
               case 'EU':
-                map.flyTo({ center: [10.4515, 51.1657], zoom: 4, speed: 0.7 });
+                bounds = new mapboxgl.LngLatBounds([-24.9971, 34.8994], [44.8157, 71.1851]);
                 break;
               case 'UK':
-                map.flyTo({ center: [-4.9536, 53.9747], zoom: 4.8, speed: 0.7 });
+                bounds = new mapboxgl.LngLatBounds([-7.5722, 49.9599], [1.6815, 58.6350]);
                 break;
             }
 
-            // Change the color of the previous paragraph
+            // Fly to the country and update the highlight layer
+            map.fitBounds(bounds, { padding: 20, duration: 2000 });
+            map.getSource('highlight-source').setData({
+              type: 'FeatureCollection',
+              features: [{
+                type: 'Feature',
+                geometry: {
+                  type: 'Polygon',
+                  coordinates: [bounds.toArray()] // Convert bounds to a polygon
+                }
+              }]
+            });
+
             if (previousEntry && previousEntry.target.nextElementSibling) {
               previousEntry.target.nextElementSibling.style.color = 'lightgray';
             }
@@ -824,14 +859,13 @@
               entry.target.nextElementSibling.style.color = '#808080'; // Reset color of current paragraph
             }
 
-            // Update the previousEntry reference
             previousEntry = entry;
           }
         });
       }, {
         root: null,
-        rootMargin: '10% 0px 0px 0px', // Adjust top margin to trigger before the title reaches the top
-        threshold: 0.99 // Adjusting the threshold to ensure it is almost fully visible
+        rootMargin: '10% 0px 0px 0px',
+        threshold: 0.99
       });
 
       document.querySelectorAll('.text-content h2').forEach(title => {
