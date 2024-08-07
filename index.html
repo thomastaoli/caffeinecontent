@@ -783,47 +783,51 @@
 
   <script src="app.js"></script>
 
-
-
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let previousEntry = null;
-      mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg'; // Use your actual Mapbox access token
+      mapboxgl.accessToken = 'pk.eyJ1IjoibGl0YW90aG9tYXNsZWUiLCJhIjoiY2xwenc4eTEzMHc1cjJtbnAwY2Q5cXNoNiJ9.uFOrpSKa1zzLG3MDoQ8BOg';
       var map = new mapboxgl.Map({
         container: 'mapbackground',
-        style: 'mapbox://styles/litaothomaslee/clyyresri019901p93m24h6xf', // Use your actual Mapbox style
-        center: [120.9605, 22.6978], // Initial center position
-        zoom: 5, // Initial zoom level
+        style: 'mapbox://styles/litaothomaslee/clyyresri019901p93m24h6xf',
+        center: [120.9605, 22.6978],
+        zoom: 5,
       });
-
+  
+      // Define the countries array here so it's accessible globally in this script
+      const countries = ['Taiwan', 'Canada', 'EU', 'UK'];
+  
       map.on('load', function () {
-        // Optionally add a source and layer for highlighting if not predefined in your style
-        map.addSource('highlight-source', {
-          type: 'geojson',
-          data: {
-            type: 'FeatureCollection',
-            features: [] // This will be dynamically populated
-          }
-        });
-
-        map.addLayer({
-          id: 'highlight-layer',
-          type: 'fill',
-          source: 'highlight-source',
-          layout: {},
-          paint: {
-            'fill-color': '#ff0000', // Red color for highlighting
-            'fill-opacity': 0.5
-          }
+        // Load and prepare the GeoJSON for each country
+        countries.forEach(country => {
+          map.addSource(country.toLowerCase() + '-source', {
+            type: 'geojson',
+            data: country.toLowerCase() + '.geojson'  // Path to the GeoJSON file
+          });
+  
+          map.addLayer({
+            id: country.toLowerCase() + '-layer',
+            type: 'fill',
+            source: country.toLowerCase() + '-source',
+            layout: {},
+            paint: {
+              'fill-color': '#ff0000',
+              'fill-opacity': 0.5
+            }
+          });
+  
+          // Initially set the visibility of all country layers to 'none'
+          map.setLayoutProperty(country.toLowerCase() + '-layer', 'visibility', 'none');
         });
       });
-
+  
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             let country = entry.target.id;
-            let bounds; // Define bounds based on the country
-
+            let bounds;
+  
+            // Define bounds based on the country
             switch (country) {
               case 'Taiwan':
                 bounds = new mapboxgl.LngLatBounds([120.9273, 21.90], [122.0073, 25.30]);
@@ -838,27 +842,23 @@
                 bounds = new mapboxgl.LngLatBounds([-7.5722, 49.9599], [1.6815, 58.6350]);
                 break;
             }
-
-            // Fly to the country and update the highlight layer
-            map.fitBounds(bounds, { padding: 20, duration: 2000 });
-            map.getSource('highlight-source').setData({
-              type: 'FeatureCollection',
-              features: [{
-                type: 'Feature',
-                geometry: {
-                  type: 'Polygon',
-                  coordinates: [bounds.toArray()] // Convert bounds to a polygon
-                }
-              }]
+  
+            // Fly to the country
+            map.fitBounds(bounds, { padding: 20, duration: 3500 });
+  
+            // Toggle visibility of the layers
+            countries.forEach(cntry => {
+              map.setLayoutProperty(cntry.toLowerCase() + '-layer', 'visibility',
+                cntry === country ? 'visible' : 'none');
             });
-
+  
             if (previousEntry && previousEntry.target.nextElementSibling) {
               previousEntry.target.nextElementSibling.style.color = 'lightgray';
             }
             if (entry.target.nextElementSibling) {
               entry.target.nextElementSibling.style.color = '#808080'; // Reset color of current paragraph
             }
-
+  
             previousEntry = entry;
           }
         });
@@ -867,12 +867,14 @@
         rootMargin: '10% 0px 0px 0px',
         threshold: 0.99
       });
-
+  
       document.querySelectorAll('.text-content h2').forEach(title => {
         observer.observe(title);
       });
     });
   </script>
+  
+  
 
   <script>
     const data = [
