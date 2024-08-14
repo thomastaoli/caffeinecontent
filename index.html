@@ -469,7 +469,7 @@
       passionate about.
     </p>
     <p>
-      Her dreams, however, came to a tragic end after a fatal heart attack -
+      Her dreams, however, came to an end after a fatal heart attack -
       which was triggered by a lemonade from Panera Bread.
     </p>
     <p>
@@ -525,9 +525,9 @@
 
   <div class="content">
     <p>
-      Dr. Jon Kole, who published a <a href="https://pubmed.ncbi.nlm.nih.gov/24761278/">study</a>
-      calling for comprehensive labeling, emphasizing the dangers of high caffeine
-      intake: “This can lead to increased blood pressure and heart rate, or even cardiac arrest, which can be more
+      Dr. Jon Kole, who published a <a href="https://pubmed.ncbi.nlm.nih.gov/24761278/">study</a> calling for
+      comprehensive labeling, emphasizing the dangers of high caffeine
+      intake:“This can lead to increased blood pressure and heart rate, or even cardiac arrest, which can be more
       dangerous for some vulnerable groups, such as pregnant women and adolescents.”
     </p>
     <p>
@@ -541,8 +541,8 @@
       caffeine-infused snacks, and even some medications that people might not realize contain caffeine.”
     </p>
     <p>
-      While there’s no way to confirm the exact number of every year, how many
-      people in the US suffer from the health risks or even die because of overdosing caffeine, a <a
+      While there’s no way to confirm the exact number of every year, how many people in the US suffer from the health
+      risks or even die because of overdosing caffeine, a <a
         href="https://www.heartrhythmjournal.com/article/S1547-5271(24)00189-9/fulltext">recent study</a> conducted
       by the Mayo Clinic shows some alarming findings. The research, which delved into over 5,000 patient records,
       identified a concerning pattern where 5% of sudden cardiac arrest survivors had consumed energy drinks shortly
@@ -574,8 +574,10 @@
   <div class="viz-section">
     <h3 class="visualization-headline" style="font-family: DM Serif Text, serif;font-size: 24px">The Caffeine Vending
       Machine</h3>
-    <p class="visualization-headline" style="font-family: DM Serif Text, serif;font-size: 20px">See how much caffeine
-      you'll consume</p>
+    <p class="visualization-headline" style="font-family: DM Serif Text, serif;font-size: 18px">You can select up to 5
+      drinks
+      you like and consume everyday, and see how much caffeine
+      you'll take if you drink all of them.</p>
     <div>
       <label for="brand-select">Brand:</label>
       <select id="brand-select">
@@ -640,7 +642,7 @@
 
   <div class="content">
     <p>
-      While the United States continues to debate the need for stricter caffeine labeling laws, other countries have
+      While the U.S. continues to debate the need for stricter caffeine labeling laws, other countries have
       already implemented comprehensive regulations to ensure consumer safety and transparency. These international
       standards provide valuable insights into how caffeine regulation can be effectively managed.
     </p>
@@ -764,7 +766,8 @@
     </p>
     <p>
       “Americans are too often misled by unclear or deceptive food labels because federal labeling standards haven't
-      been updated in decades,” said Senator Whitehouse, who endorsed the bill. “This bill will modernize labeling rules
+      been updated in decades,” said Sen. Sheldon Whitehouse, D-R.I., who endorsed the bill. “This bill will modernize
+      labeling rules
       to help consumers gain
       a better understanding of what's in their food so they can make healthier decisions and better avoid potentially
       dangerous allergens.”
@@ -792,10 +795,10 @@
         center: [120.9605, 22.6978],
         zoom: 5,
       });
-  
+
       // Define the countries array here so it's accessible globally in this script
       const countries = ['Taiwan', 'Canada', 'EU', 'UK'];
-  
+
       map.on('load', function () {
         // Load and prepare the GeoJSON for each country
         countries.forEach(country => {
@@ -803,7 +806,7 @@
             type: 'geojson',
             data: country.toLowerCase() + '.geojson'  // Path to the GeoJSON file
           });
-  
+
           map.addLayer({
             id: country.toLowerCase() + '-layer',
             type: 'fill',
@@ -814,18 +817,18 @@
               'fill-opacity': 0.5
             }
           });
-  
+
           // Initially set the visibility of all country layers to 'none'
           map.setLayoutProperty(country.toLowerCase() + '-layer', 'visibility', 'none');
         });
       });
-  
+
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             let country = entry.target.id;
             let bounds;
-  
+
             // Define bounds based on the country
             switch (country) {
               case 'Taiwan':
@@ -841,23 +844,23 @@
                 bounds = new mapboxgl.LngLatBounds([-7.5722, 49.9599], [1.6815, 58.6350]);
                 break;
             }
-  
+
             // Fly to the country
             map.fitBounds(bounds, { padding: 20, duration: 3500 });
-  
+
             // Toggle visibility of the layers
             countries.forEach(cntry => {
               map.setLayoutProperty(cntry.toLowerCase() + '-layer', 'visibility',
                 cntry === country ? 'visible' : 'none');
             });
-  
+
             if (previousEntry && previousEntry.target.nextElementSibling) {
               previousEntry.target.nextElementSibling.style.color = 'lightgray';
             }
             if (entry.target.nextElementSibling) {
               entry.target.nextElementSibling.style.color = '#808080'; // Reset color of current paragraph
             }
-  
+
             previousEntry = entry;
           }
         });
@@ -866,14 +869,14 @@
         rootMargin: '10% 0px 0px 0px',
         threshold: 0.99
       });
-  
+
       document.querySelectorAll('.text-content h2').forEach(title => {
         observer.observe(title);
       });
     });
   </script>
-  
-  
+
+
 
   <script>
     const data = [
